@@ -1,4 +1,4 @@
-# Einopdracht
+# Eindopdracht
 
 Ik ga tijdelijk in de readme schrijven. In de toekomst zal ik dit in mijn wiki doen, maar nu nog niet. 
 

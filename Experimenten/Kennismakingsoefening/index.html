@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kennismakingsoefening</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <section>
+      <h1>Hai, I'm Roshnie. Learn more about me.</h1>
+      <div>
+        <div>
+          <p>Roshnie</p>
+          <p>What is my name?</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>Pasta Carbonara</p>
+          <p>What my favorite dish?</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>Cornflower blue</p>
+          <p>What is my favorite color?</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>The summer</p>
+          <p>What is my favorite season?</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>Tomato</p>
+          <p>What do I not like to eat?</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>A chinchilla</p>
+          <p>What is my favorite animal?</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>The :has selector</p>
+          <p>Which selector did I experiment with?</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>Cola</p>
+          <p>What is my favorite drink?</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Let's check if you still remember things about me!</h2>
+      <p>The correct answer turns green. No peeking!</p>
+      <div>
+        <div>
+          <!--src: https://www.w3schools.com/tags/att_input_pattern.asp-->
+          <label>What is my name?</label>
+          <input type="text" placeholder="Name" pattern="^[Rr]oshnie$" required />
+        </div>
+        <div>
+          <label>Which selector did I experiment with?</label>
+          <input type="text" placeholder="Selector" pattern="^:[Hh]as$" required />
+        </div>
+        <div>
+          <label>Wat is my favorite drink?</label>
+          <input type="text" placeholder="Favorite drink" pattern="^[Cc]ola$" required />
+        </div>
+        <div>
+          <label>What is my favorite animal?</label>
+          <input type="text" placeholder="Favorite animal" pattern="^[Cc]hinchilla$" required />
+        </div>
+        <div>
+          <label>What do I not like to eat?</label>
+          <input type="text" placeholder="Disliked food" pattern="^[Tt]omato$" required />
+        </div>
+        <div>
+          <label>What is my favorite season?</label>
+          <input type="text" placeholder="Favorite season" pattern="^[Ss]ummer$" required />
+        </div>
+      </div>
+    </section>
+
+    <article>
+      <h2>Choose if you want a beautiful black border</h2>
+      <label> Black border </label>
+      <input type="checkbox">
+    </article>
+
+    </section>
+    <h2>Things thats worked out:</h2>
+    <ol>
+      <li>Selecting the first section in the body with :has.</li>
+      <li>Selecting the second section that contains a p element with :has.</li>
+      <li>Check a checkbx with :has.</li>
+    </ol>
+    <h2>Things I tried that did not work out:</h2>
+    <ol>
+      <li>Trying to change the color with has by checking the value property of the text input. </li>
+      <li>Creating an actual dark mode due to lack of time.</li>
+    </ol>
+  </body>
+</html>

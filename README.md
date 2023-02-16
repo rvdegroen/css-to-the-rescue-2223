@@ -10,4 +10,6 @@ De eindopdracht kan je vinden in de `root` map. Mijn experimenten kan je vinden 
 
 Je kan alles over de eindopdracht en andere opdrachten, experimenten, gastcolleges en onderzoekjes in mijn wiki lezen van deze repository.
 
-# Installation
+# Naam Applicatie
+
+# Installatie

@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+body > div {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+div > div {
+  width: 0.5em;
+  aspect-ratio: 1;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #0ff;
+
+  animation-name: glow, size, opacity2;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/* animation particle glow */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px magenta;
+  }
+  100% {
+    box-shadow: 0 0 30px cyan;
+  }
+}
+
+@keyframes size {
+  0% {
+    width: 1em;
+  }
+  50% {
+    width: 2em;
+  }
+  100% {
+    width: 0em;
+  }
+}
+
+@keyframes opacity2 {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-300%);
+  }
+}

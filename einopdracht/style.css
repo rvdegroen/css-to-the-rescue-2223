@@ -1,12 +1,15 @@
-/* CUSTOM COLORS */
 :root {
+  /*  house colors  */
+  --house-left: #f08080;
+  --house-right: #f4978e;
+
   /* roof colors */
   --roof-right: #ffdac9;
   --roof-left: #d7987b;
   --roof-top: #fbc4ab;
 
   /* grass colors */
-  --grass-right: 4e6148;
+  --grass-right: #4e6148;
   --grass-left: #354331;
   --grass-top: #699858;
   --grass-shadow: #3e693b;
@@ -53,3 +56,73 @@
   --within-left: #707070;
   --within-right: #515151;
 }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  position: absolute;
+  aspect-ratio: 1;
+  transform-style: preserve-3d;
+  top: 60%;
+  left: 30%;
+}
+
+/* all sections */
+section {
+  transform: rotatex(45deg) rotateY(45deg);
+  transform-style: preserve-3d;
+}
+
+/* all divs and sections */
+div,
+section {
+  position: absolute;
+  aspect-ratio: 1;
+}
+
+/* grass container */
+
+/* grass container: left */
+section:nth-of-type(1) div:nth-of-type(1) {
+  background-color: var(--grass-left);
+
+  transform: rotatey(0deg);
+  transform-origin: right center;
+
+  width: 30vw;
+  height: 3vh;
+}
+
+/* grass container: right */
+section:nth-of-type(1) div:nth-of-type(2) {
+  background-color: var(--grass-right);
+
+  transform: rotatey(90deg);
+  transform-origin: right center;
+  width: 30vw;
+  height: 3vh;
+}
+
+/* grass container: top */
+section:nth-of-type(1) div:nth-of-type(3) {
+  background-color: var(--grass-top);
+
+  transform: rotatex(90deg);
+  transform-origin: top center;
+  width: 30vw;
+}
+
+/* house container */
+/* section:nth-of-type(2) div:nth-of-type(1) {
+    background-color: var(--house-left);
+  
+    transform: translatey(-2em) rotatey(0deg);
+    transform-origin: right center;
+  
+    width: 30vw;
+    height: 3vh;
+  }
+   */

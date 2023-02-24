@@ -1,0 +1,35 @@
+div {
+  margin: 0 auto;
+  position: relative;
+  top: 15%;
+  width: 250px;
+  height: 250px;
+  background: #b3e061;
+  transform: rotateZ(45deg);
+  -webkit-transform: rotateZ(45deg);
+}
+
+div:before {
+  content: "";
+  width: 250px;
+  height: 10px;
+  background: #94b365;
+  position: absolute;
+  top: 250px;
+  left: 5px;
+  transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
+}
+
+div:after {
+  content: "";
+  width: 10px;
+  height: 250px;
+  background: #94b365;
+  position: absolute;
+  top: 5px;
+  left: 250px;
+  transform: skewY(45deg);
+  -webkit-transform: skewY(45deg);
+  z-index: -1;
+}

@@ -63,9 +63,9 @@ body {
 }
 
 main {
+  /* aspect-ratio: 1;
+  transform-style: preserve-3d;  */
   position: absolute;
-  aspect-ratio: 1;
-  transform-style: preserve-3d;
   top: 60%;
   left: 30%;
 }

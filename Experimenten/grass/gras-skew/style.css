@@ -1,0 +1,104 @@
+:root {
+  /* background colors */
+  --background-normal: #202020;
+
+  /*  house colors  */
+  --house-left: #f08080;
+  --house-right: #f4978e;
+
+  /* roof colors */
+  --roof-right: #ffdac9;
+  --roof-left: #d7987b;
+  --roof-top: #fbc4ab;
+
+  /* grass colors */
+  --grass-right: #4e6148;
+  --grass-left: #354331;
+  --grass-top: #699858;
+  --grass-shadow: #3e693b;
+
+  /*  tree dark  */
+  --tree-top-dark: #3b5035;
+  --tree-bottom-dark: #5c3636;
+
+  /*  tree light  */
+  --tree-top-light: #3f6134;
+  --tree-bottom-light: #714343;
+
+  /* campfire  */
+  --campfire-wood-base: #6a4f40;
+  --campfire-wood-end: #442e29;
+  --campfire-fire-within: #eada86;
+  --campfire-fire-middle: #e59459;
+  --campfire-fire-outer: #b52323;
+
+  /*  door  */
+  --door-front: #985151;
+  --door-side: #573535;
+  --door-top: #a97373;
+
+  /*  windows  */
+  --window-front: #e5f5ff;
+  --window-side: #c5dcea;
+  --window-top: #ffffff;
+  --window-curtain-light: #bab9ff;
+  --window-curtain-dark: #aba9ff;
+  --window-light-inside: #3b8cc7;
+
+  /*  bricks  */
+  --brick-left: #616161;
+  --bricks-right: #6d6d6d;
+  --bricks-top: #7e7e7e;
+
+  /*  chimney  */
+  --smoke: #eeeeee;
+  --base-dark: #573535;
+  --base-light: #985151;
+  --top-side: #696969;
+  --top-top: #9e9e9e;
+  --within-left: #707070;
+  --within-right: #515151;
+}
+
+body {
+  background-color: var(--background-normal);
+}
+
+/* top side of */
+div {
+  margin: 0 auto;
+  position: relative;
+  top: 35vh;
+  width: 350px;
+  height: 350px;
+  background: var(--grass-top);
+  transform: rotateZ(45deg);
+  -webkit-transform: rotateZ(45deg);
+}
+
+/* left side of grass */
+div:before {
+  content: "";
+  width: 350px;
+  height: 10px;
+  background: var(--grass-left);
+  position: absolute;
+  top: 350px;
+  left: 5px;
+  transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
+}
+
+/* right side of grass */
+div:after {
+  content: "";
+  width: 10px;
+  height: 350px;
+  background: var(--grass-right);
+  position: absolute;
+  top: 5px;
+  left: 350px;
+  transform: skewY(45deg);
+  -webkit-transform: skewY(45deg);
+  z-index: -1;
+}

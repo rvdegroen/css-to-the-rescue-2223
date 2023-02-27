@@ -12,4 +12,28 @@ De eindopdracht kan je vinden in de `eindopdracht` map. Mijn experimenten kan je
 
 # Wiki
 
-Je kan alles over de eindopdracht en andere opdrachten, experimenten, gastcolleges en onderzoekjes in mijn wiki lezen van deze repository.
+In mijn [wiki](https://github.com/rvdegroen/css-to-the-rescue-2223/wiki/Over-dit-vak) lees je alles over het proces van de eindopdracht, experimenten, andere opdrachten en gastcolleges.
+
+# To-do list
+
+Dit is een lijstje met wat ik wil maken in mijn opdracht. Aan de ❌ kan je zien dat ik het niet af heb & aan de ✔ kan je zien dat ik dit wel af heb.
+
+Bediening van omgeving:
+
+[] Dag en nacht
+
+Bediening van props:
+
+[] Licht switch uit en aan
+[] Deur open en dicht
+[] Bomen die bewegen of blaadjes laten vallen
+[] Bosjes die bewegen
+[] Kampvuur uit en aan
+[] Raam gordijnen open en dicht
+
+Als ik tijd over heb:
+
+[] Tilting van omgeving
+[] Rotating van omgeving
+[] Veranderen van weer (regen, zon, sneeuw, bewolkt)
+[] Veranderen van seizoenen

@@ -1,0 +1,31 @@
+@import url("./custom.css");
+@import url("./grass.css");
+@import url("./house.css");
+
+/* global styling */
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--background-normal);
+}
+
+main {
+  /* aspect-ratio: 1;
+    transform-style: preserve-3d;  */
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+
+/* all sections */
+section {
+  transform: rotatex(45deg) rotateY(45deg);
+  transform-style: preserve-3d;
+}
+
+/* all divs and sections */
+div,
+section {
+  position: absolute;
+  aspect-ratio: 1;
+}

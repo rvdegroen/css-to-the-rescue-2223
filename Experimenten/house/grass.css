@@ -1,0 +1,31 @@
+/* grass container */
+
+/* grass container: left */
+section:nth-of-type(1) div:nth-of-type(1) {
+  background-color: var(--grass-left);
+
+  transform: rotatey(0deg);
+  transform-origin: right center;
+
+  width: 30vw;
+  height: 3vh;
+}
+
+/* grass container: right */
+section:nth-of-type(1) div:nth-of-type(2) {
+  background-color: var(--grass-right);
+
+  transform: rotatey(90deg);
+  transform-origin: right center;
+  width: 30vw;
+  height: 3vh;
+}
+
+/* grass container: top */
+section:nth-of-type(1) div:nth-of-type(3) {
+  background-color: var(--grass-top);
+
+  transform: rotatex(90deg);
+  transform-origin: top center;
+  width: 30vw;
+}

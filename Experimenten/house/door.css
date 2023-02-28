@@ -4,7 +4,7 @@
 section:nth-of-type(4) div:nth-of-type(1) {
   background-color: var(--door-side);
 
-  transform: translateY(-58vh) translateX(32.45vw) rotatey(0deg);
+  transform: translateY(-58.6vh) translateX(32.45vw) rotatey(0deg);
   transform-origin: center;
   /* width = 30vh, height = 3vh */
   width: calc(var(--width) / 75);
@@ -15,7 +15,7 @@ section:nth-of-type(4) div:nth-of-type(1) {
 section:nth-of-type(4) div:nth-of-type(2) {
   background-color: var(--door-front);
 
-  transform: translateY(-57.7vh) translateX(29.95vw) rotatey(90deg);
+  transform: translateY(-58.6vh) translateX(29.95vw) rotatey(90deg);
   transform-origin: right center;
   /* width = 30vh, height = 3vh */
   width: calc(var(--width) / 10.6);
@@ -26,7 +26,7 @@ section:nth-of-type(4) div:nth-of-type(2) {
 section:nth-of-type(4) div:nth-of-type(3) {
   background-color: var(--door-top);
 
-  transform: translateY(-58vh) translateX(32.45vw) rotatex(90deg);
+  transform: translateY(-58.6vh) translateX(32.45vw) rotatex(90deg);
   transform-origin: top center;
   /* width = 30vh, height = 3vh */
   width: calc(var(--width) / 75);

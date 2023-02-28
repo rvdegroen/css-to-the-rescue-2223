@@ -1,0 +1,33 @@
+/* roof container */
+
+/* height and width of all walls */
+section:nth-of-type(3) div:nth-of-type(1),
+section:nth-of-type(3) div:nth-of-type(2) {
+  /* width = 30vh, height = 3vh */
+  width: calc(var(--width) / 1.6);
+  height: var(--height);
+}
+
+/* roof container: left */
+section:nth-of-type(3) div:nth-of-type(1) {
+  background-color: var(--roof-left);
+
+  transform: translateY(-62vh) translateX(10.9vw) rotatey(0deg);
+  transform-origin: center;
+}
+
+/* roof container: right */
+section:nth-of-type(3) div:nth-of-type(2) {
+  background-color: var(--roof-right);
+
+  transform: translateY(-62vh) translateX(10.9vw) rotatey(90deg);
+  transform-origin: right center;
+}
+
+section:nth-of-type(3) div:nth-of-type(3) {
+  background-color: var(--roof-top);
+
+  transform: translateY(-62vh) translateX(10.9vw) rotatex(90deg);
+  transform-origin: top center;
+  width: calc(var(--width) / 1.6);
+}

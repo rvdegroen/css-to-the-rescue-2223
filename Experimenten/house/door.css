@@ -15,10 +15,10 @@ section:nth-of-type(4) div:nth-of-type(1) {
 section:nth-of-type(4) div:nth-of-type(2) {
   background-color: var(--door-front);
 
-  transform: translateY(-58vh) translateX(29.8vw) rotatey(90deg);
+  transform: translateY(-57.7vh) translateX(29.95vw) rotatey(90deg);
   transform-origin: right center;
   /* width = 30vh, height = 3vh */
-  width: calc(var(--width) / 10);
+  width: calc(var(--width) / 10.6);
   height: calc(var(--height) * 4);
 }
 

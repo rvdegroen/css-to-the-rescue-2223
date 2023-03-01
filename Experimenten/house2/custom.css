@@ -3,9 +3,9 @@
   --background-normal: #313131;
 
   /* grass colors */
-  --grass-top: #9eb352;
-  --grass-right: #6a7731;
-  --grass-left: #4d6136;
+  --grass-top: #7b8a53;
+  --grass-right: #566139;
+  --grass-left: rgb(55, 70, 39);
   --grass-shadow: #3b561c;
 
   /*  house colors  */
@@ -17,11 +17,12 @@
   --house-brick-left: #9b7162;
 
   /* roof colors */
-  --roof-top: #9a5e59;
+  --roof-top: #be807a;
+  --roof-top-within: #9a5e59;
   --roof-right: #70403c;
   --roof-left: #622e2d;
-  --roof-top-right: #4c1f21;
-  --roof-top-left: #3f1513;
+  --roof-top-left: #4c261f;
+  --roof-top-right: #3f1c13;
 
   /*  door  */
   --door-top: #b9654c;

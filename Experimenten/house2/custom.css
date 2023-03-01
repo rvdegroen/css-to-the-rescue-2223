@@ -2,69 +2,82 @@
   /* background colors */
   --background-normal: #313131;
 
-  /*  house colors  */
-  --house-left: #ccbad3;
-  --house-right: #f6d7df;
+  /* grass colors */
+  --grass-top: #9eb352;
+  --grass-right: #828e4c;
+  --grass-left: #54752e;
+  --grass-shadow: #3b561c;
 
-  /*  Lleft brick colors */
-  --left-brick-top: #ecd4f5;
-  --left-brick-right: #9982a3;
-  --left-brick-left: #b59abf;
+  /*  house colors  */
+  --house-right: #f6d7df;
+  --house-left: #ccbad3;
+
+  /* bricks */
+  --house-brick-right: #daa98e;
+  --house-brick-left: #9b7162;
 
   /* roof colors */
-  --roof-right: #664644;
-  --roof-left: #473636;
-  --roof-top: #754d46;
+  --roof-top: #9a5e59;
+  --roof-right: #70403c;
+  --roof-left: #622e2d;
+  --roof-top-right: #4c1f21;
+  --roof-top-left: #3f1513;
 
-  /* grass colors */
-  --grass-right: #4e6148;
-  --grass-left: #354331;
-  --grass-top: #699858;
-  --grass-shadow: #3e693b;
+  /*  door  */
+  --door-top: #b9654c;
+  --door-right: #ae502f;
+  --door-left: #85351d;
 
-  /*  tree dark  */
-  --tree-top-dark: #3b5035;
-  --tree-bottom-dark: #5c3636;
+  /* door ramp */
+  --door-ramp-top: #b69b86;
+  --door-ramp-right: #927160;
+  --door-ramp-left: #73584c;
 
-  /*  tree light  */
-  --tree-top-light: #3f6134;
-  --tree-bottom-light: #714343;
+  /*  windows  */
+  --window-top: #bb5832;
+  --window-left: #85351d;
+  --window-right: #452115;
+
+  /*  lamp  */
+  --lamp-light: linear-gradient(0deg, #ffa928 0%, #ffa92800 100%);
+  --lamp-top-on: #ffa928;
+  --lamp-top-off: #9c3e12;
+  --lamp-left: #85351d;
+  --lamp-right: #452115;
+
+  /*  chimney base */
+  --chimney-smoke: #f2f0ef;
+  --chimney-base-right: #c7b5ab;
+  --chimney-base-left: #b08e82;
+
+  /*  chimney top */
+  --chimney-top-right: #6e5046;
+  --chimney-top-left: #5a3f36;
+
+  /*  chimney upper */
+  --chimney-upper-top: #e3dcd8;
+  --chimney-upper-left: #716359;
+  --chimney-upper-right: #564c44;
+
+  /*  tree  */
+  --tree-top-top: #719648;
+  --tree-top-right: #376d29;
+  --tree-top-left: #335e2a;
+  --tree-bottom-right: #704638;
+  --tree-bottom-left: #442415;
 
   /* campfire  */
-  --campfire-wood-base: #6a4f40;
-  --campfire-wood-end: #442e29;
+  --campfire-wood-base: #704638;
+  --campfire-wood-end: #442415;
   --campfire-fire-within: #eada86;
   --campfire-fire-middle: #e59459;
   --campfire-fire-outer: #b52323;
 
-  /*  door  */
-  --door-front: #8a564f;
-  --door-side: #281e19;
-  --door-top: #b87d75;
+  /* path */
+  --path-top: #ffbf95;
+  --path-shadow: #d8986e;
 
-  /*  windows  */
-  --window-front: #e5f5ff;
-  --window-side: #c5dcea;
-  --window-top: #ffffff;
-  --window-curtain-light: #bab9ff;
-  --window-curtain-dark: #aba9ff;
-  --window-light-inside: #3b8cc7;
-
-  /*  bricks  */
-  --brick-left: #616161;
-  --bricks-right: #6d6d6d;
-  --bricks-top: #7e7e7e;
-
-  /*  chimney  */
-  --chimney-smoke: #eeeeee;
-  --chimney-base-left: #592e2f;
-  --chimney-base-right: #8a564f;
-  --chimney-top-left: #616161;
-  --chimney-top-right: #7d7d7d;
-  --chimney-upper-top: #9e9e9e;
-  --chimney-upper-left: #707070;
-  --chimney-upper-right: #515151;
-
+  /* sizes */
   --width: 30vw;
   --height: 4vh;
 }

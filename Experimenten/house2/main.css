@@ -2,6 +2,10 @@
 @import url("./grass.css");
 @import url("./house.css");
 @import url("./bricks.css");
+@import url("./roof.css");
+@import url("./rooftop1.css");
+@import url("./rooftop2.css");
+@import url("./door.css");
 
 /* global styling */
 body {

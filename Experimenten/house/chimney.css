@@ -48,15 +48,47 @@ section:nth-of-type(5) div:nth-of-type(4) {
   height: calc(var(--height) / 1.5);
 }
 
-/* chimney top: top */
+/* chimney top: top left */
 section:nth-of-type(5) div:nth-of-type(5) {
+  background-color: var(--chimney-upper-left);
+
+  transform: translateY(-63vh) translateX(10.5vw) translateZ(5.5vw) rotatex(180deg);
+  transform-origin: top center;
+  width: calc(var(--width) * 0.23 / 3.5);
+  height: calc(var(--height) * 2);
+  /* used https://bennettfeely.com/clippy/ */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 57% 100%, 3% 53%);
+}
+
+/* chimney top: top right */
+section:nth-of-type(5) div:nth-of-type(6) {
+  background-color: var(--chimney-upper-right);
+
+  transform: translateY(-83vh) translateX(13.65vw) translateZ(2vw) rotatey(180deg);
+  transform-origin: right center;
+  width: calc(var(--width) * 0.23 / 3);
+  height: calc(var(--height) * 2);
+  /* used https://bennettfeely.com/clippy/ */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 0 29%);
+}
+
+/* chimney top: top */
+section:nth-of-type(5) div:nth-of-type(7) {
   background-color: var(--chimney-upper-top);
 
   transform: translateY(-61.8vh) translateX(8.6vw) translateZ(5.5vw) rotatex(90deg);
   transform-origin: top center;
   width: calc(var(--width) * 0.23 / 1.8);
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    25% 100%,
+    25% 25%,
+    75% 25%,
+    75% 75%,
+    25% 75%,
+    25% 100%,
+    100% 100%,
+    100% 0%
+  );
 }
-
-/* chimney top: top left */
-
-/* chimney top: top right */

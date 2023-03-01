@@ -15,7 +15,7 @@ section:nth-of-type(4) div:nth-of-type(1) {
 section:nth-of-type(4) div:nth-of-type(2) {
   background-color: var(--door-front);
 
-  transform: translateY(-58.6vh) translateX(29.95vw) rotatey(90deg);
+  transform: translateY(-58.45vh) translateX(30vw) rotatey(90deg);
   transform-origin: right center;
   /* width = 30vh, height = 3vh */
   width: calc(var(--width) / 10.6);

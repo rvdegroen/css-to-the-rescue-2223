@@ -3,13 +3,13 @@
   --background-normal: #313131;
 
   /*  house colors  */
-  --house-left: #f08080;
-  --house-right: #f4978e;
+  --house-left: #ccbad3;
+  --house-right: #f6d7df;
 
   /* roof colors */
-  --roof-right: #ffdac9;
-  --roof-left: #d7987b;
-  --roof-top: #fbc4ab;
+  --roof-right: #664644;
+  --roof-left: #473636;
+  --roof-top: #754d46;
 
   /* grass colors */
   --grass-right: #4e6148;
@@ -33,9 +33,9 @@
   --campfire-fire-outer: #b52323;
 
   /*  door  */
-  --door-front: #985151;
-  --door-side: #573535;
-  --door-top: #a97373;
+  --door-front: #8a564f;
+  --door-side: #281e19;
+  --door-top: #b87d75;
 
   /*  windows  */
   --window-front: #e5f5ff;
@@ -52,8 +52,8 @@
 
   /*  chimney  */
   --chimney-smoke: #eeeeee;
-  --chimney-base-left: #573535;
-  --chimney-base-right: #985151;
+  --chimney-base-left: #592e2f;
+  --chimney-base-right: #8a5349;
   --chimney-top-left: #616161;
   --chimney-top-right: #7d7d7d;
   --chimney-upper-top: #9e9e9e;

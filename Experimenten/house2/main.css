@@ -1,9 +1,7 @@
 @import url("./custom.css");
 @import url("./grass.css");
 @import url("./house.css");
-@import url("./roof.css");
-@import url("./door.css");
-@import url("./chimney.css");
+@import url("./bricks.css");
 
 /* global styling */
 body {

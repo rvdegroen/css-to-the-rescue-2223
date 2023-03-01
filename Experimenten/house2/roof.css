@@ -1,0 +1,49 @@
+/* roof container */
+
+/* roof container: right */
+section:nth-of-type(5) div:nth-of-type(1) {
+  background-color: var(--roof-right);
+
+  transform: translateX(276px) translateY(-508px) translateZ(125px) rotateY(90deg);
+
+  /* width:400px height:10px */
+  width: calc(var(--width) / 1.6);
+  height: calc(var(--height) * 5);
+}
+
+/* roof container: left */
+section:nth-of-type(5) div:nth-of-type(2) {
+  background-color: var(--roof-left);
+
+  transform: translateX(27px) translateY(-332px) translateZ(125px) rotateY(0);
+
+  /* width:400px height:10px */
+  width: calc(var(--width) / 1.6);
+  height: calc(var(--height) * 5);
+}
+
+/* roof container: top */
+section:nth-of-type(5) div:nth-of-type(3) {
+  background-color: var(--roof-top);
+
+  transform: translateY(-549px) translateX(180px) translateZ(-29px) rotateX(90deg);
+  transform-origin: top center;
+
+  /* width:400px height:10px */
+  width: 250px;
+  height: 250px;
+
+  /* used: https://bennettfeely.com/clippy/ */
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    25% 100%,
+    25% 25%,
+    75% 25%,
+    75% 75%,
+    25% 75%,
+    25% 100%,
+    100% 100%,
+    100% 0%
+  );
+}

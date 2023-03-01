@@ -6,6 +6,11 @@
   --house-left: #ccbad3;
   --house-right: #f6d7df;
 
+  /*  Lleft brick colors */
+  --left-brick-top: #ecd4f5;
+  --left-brick-right: #9982a3;
+  --left-brick-left: #b59abf;
+
   /* roof colors */
   --roof-right: #664644;
   --roof-left: #473636;

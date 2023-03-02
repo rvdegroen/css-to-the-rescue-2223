@@ -10,7 +10,7 @@ section:nth-of-type(2) * {
 section:nth-of-type(2) div:nth-of-type(1) {
   background-color: var(--house-left);
 
-  transform: translateY(-460px) translateX(180px) rotatey(0deg);
+  transform: translateY(-400px) translateX(230px) translateZ(220px) rotateY(0deg);
   transform-origin: center;
 }
 
@@ -18,6 +18,6 @@ section:nth-of-type(2) div:nth-of-type(1) {
 section:nth-of-type(2) div:nth-of-type(2) {
   background-color: var(--house-right);
 
-  transform: translateY(-460px) translateX(180px) rotatey(90deg);
+  transform: translateY(-400px) translateX(230px) translateZ(220px) rotateY(90deg);
   transform-origin: right center;
 }

@@ -1,9 +1,9 @@
-/* roof container */
+/* roof container top and edges*/
 
 /* roof container: right */
 section:nth-of-type(5) div:nth-of-type(1) {
   background-color: var(--roof-right);
-  transform: translateX(276px) translateY(-508px) translateZ(125px) rotateY(90deg);
+  transform: translateX(418px) translateY(-508px) translateZ(332px) rotateY(90deg);
   width: 320px;
   height: 40px;
 }
@@ -11,7 +11,7 @@ section:nth-of-type(5) div:nth-of-type(1) {
 /* roof container: left */
 section:nth-of-type(5) div:nth-of-type(2) {
   background-color: var(--roof-left);
-  transform: translateX(27px) translateY(-332px) translateZ(125px) rotateY(0);
+  transform: translateX(258px) translateY(-508px) translateZ(172px) rotateY(0);
   width: 320px;
   height: 40px;
 }
@@ -19,7 +19,7 @@ section:nth-of-type(5) div:nth-of-type(2) {
 /* roof container: top */
 section:nth-of-type(5) div:nth-of-type(3) {
   background-color: var(--roof-top);
-  transform: translateY(-549px) translateX(180px) translateZ(-29px) rotateX(90deg);
+  transform: translateX(258px) translateY(-508px) translateZ(172px) rotateX(90deg);
   transform-origin: top center;
   width: 320px;
   height: 320px;

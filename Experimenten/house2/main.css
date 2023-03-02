@@ -38,9 +38,6 @@ section {
 
 @media only screen and (max-width: 1500px) {
   main {
-    left: 28vw;
-  }
-  body {
-    transform: scale(0.65);
+    transform: scale(0.63);
   }
 }

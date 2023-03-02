@@ -50,8 +50,6 @@
   --left-window-bottom: #5f4d4c;
   --left-window-curtain: #3f4953;
 
-  /* curtains */
-
   /*  lamp  */
   --lamp-light: linear-gradient(0deg, #ffa928 0%, #ffa92800 100%);
   --lamp-top-on: #ffa928;

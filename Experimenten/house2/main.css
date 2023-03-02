@@ -19,6 +19,8 @@ body {
   padding: 0;
   margin: 0;
   background-color: var(--background-normal);
+  overflow: hidden;
+  background: radial-gradient(circle at 90% 80%, rgb(255, 87, 20), rgb(10, 32, 131));
 }
 
 main {

@@ -5,8 +5,12 @@
   /* grass colors */
   --grass-top: #7b8a53;
   --grass-right: #566139;
-  --grass-left: rgb(55, 70, 39);
+  --grass-left: #374627;
   --grass-shadow: #3b561c;
+
+  /* dirt colors */
+  --dirt-right: #5d4037;
+  --dirt-left: #3e2723;
 
   /*  house colors  */
   --house-right: #f5d0bd;

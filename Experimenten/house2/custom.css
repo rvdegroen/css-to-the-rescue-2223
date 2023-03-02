@@ -25,8 +25,13 @@
   --roof-top-right: #3f1c13;
 
   /*  door  */
-  --door-front: #3E5064;
-  --door-edge: ; #8F7977 ;
+  --door-front: #3e5064;
+  --door-edge: #8f7977;
+
+  /* door knob */
+  --door-knob-top: linear-gradient(to left, #847979, #a09595);
+  --door-knob-right: linear-gradient(to top, #655a5a, #7c7171);
+  --door-knob-left: linear-gradient(top top, #716666, #5f5454);
 
   /* door ramp */
   --door-ramp-top: #b69b86;

@@ -1,4 +1,4 @@
-/* windows container */
+/* window container part 1 for the light and the side */
 
 /* window light */
 section:nth-of-type(9) div:nth-of-type(1) {
@@ -13,9 +13,10 @@ section:nth-of-type(9) div:nth-of-type(1) {
 }
 
 /* window side */
-
-/* window bottom */
-
-/* window curtain */
-
-/* window frame */
+section:nth-of-type(9) div:nth-of-type(2) {
+  background-color: var(--window-side);
+  /* with translateZ:300 the door is on the edge in the corner */
+  transform: translateY(-162px) translateX(442px) translateZ(544px) rotateY(90deg);
+  width: 10px;
+  height: 90px;
+}

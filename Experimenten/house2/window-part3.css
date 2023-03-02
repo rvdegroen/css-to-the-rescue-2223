@@ -1,0 +1,12 @@
+/* window part 3 container for the frame*/
+/* window frame */
+section:nth-of-type(11) div:nth-of-type(1) {
+  background-color: none;
+  /* with translateZ:300 the door is on the edge in the corner */
+  transform: translateY(-222px) translateX(442px) translateZ(480px) rotateY(90deg);
+  border: 10px solid var(--window-frame);
+  border-left: 8px solid var(--window-frame);
+  border-right: 8px solid var(--window-frame);
+  width: 65px;
+  height: 90px;
+}

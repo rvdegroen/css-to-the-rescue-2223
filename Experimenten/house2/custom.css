@@ -35,10 +35,11 @@
 
   /*  windows  */
   --window-light: #ff8a00;
+  --window-light-transparent: #ff88006b;
   --window-frame: #8f7977;
-  --window-side: #aa8783;
-  --window-bottom: #745e5c;
-  --window-curtain: #3e5064;
+  --window-side: #7e6563;
+  --window-bottom: #685352;
+  --window-curtain: #48535f;
 
   /* curtains */
 

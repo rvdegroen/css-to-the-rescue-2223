@@ -8,6 +8,25 @@
   --grass-left: #374627;
   --grass-shadow: #3b561c;
 
+  /* grass gradients */
+  --grass-gradient-right: linear-gradient(
+    to bottom,
+    #4a552c 15%,
+    #384429 0 35%,
+    #5e3428 0 60%,
+    #572d20 0
+  );
+  --grass-gradient-left: linear-gradient(
+    to bottom,
+    #374627 15%,
+    #2a351e 0 30%,
+    #4a2419 0 45%,
+    #411d13 0 60%,
+    #38160d 0 75%,
+    #2f0e07 0 90%,
+    #260701 0
+  );
+
   /* dirt colors */
   --dirt-right: #5d4037;
   --dirt-left: #3e2723;

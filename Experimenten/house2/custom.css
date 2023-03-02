@@ -43,6 +43,15 @@
   --window-bottom: #685352;
   --window-curtain: #48535f;
 
+  /* left side colors */
+  --left-window-light: #ff8a00;
+  --left-window-light-off: #553816;
+  --left-window-light-transparent: #ff88006b;
+  --left-window-frame: #8f7977;
+  --left-window-side: #7e6563;
+  --left-window-bottom: #685352;
+  --left-window-curtain: #48535f;
+
   /* curtains */
 
   /*  lamp  */

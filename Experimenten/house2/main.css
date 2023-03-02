@@ -15,7 +15,7 @@ body {
   background-color: var(--background-normal);
 }
 
-main {
+body {
   /* aspect-ratio: 1;
     transform-style: preserve-3d;  */
   position: absolute;

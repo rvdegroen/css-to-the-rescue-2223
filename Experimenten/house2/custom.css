@@ -34,7 +34,9 @@
   --door-knob-left: linear-gradient(to top, #5f5454, #716666);
 
   /*  windows  */
+  /* right side colors */
   --window-light: #ff8a00;
+  --window-light-off: #553816;
   --window-light-transparent: #ff88006b;
   --window-frame: #8f7977;
   --window-side: #7e6563;

@@ -31,7 +31,7 @@
   /* door knob */
   --door-knob-top: linear-gradient(to left, #847979, #a09595);
   --door-knob-right: linear-gradient(to top, #655a5a, #7c7171);
-  --door-knob-left: linear-gradient(top top, #716666, #5f5454);
+  --door-knob-left: linear-gradient(to top, #5f5454, #716666);
 
   /* door ramp */
   --door-ramp-top: #b69b86;

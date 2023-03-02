@@ -3,8 +3,8 @@
 /* width and height of all the bricks */
 section:nth-of-type(7) * {
   /* width:400px height:10px */
-  width: calc(var(--width) / 12);
-  height: calc(var(--height) * 1.5);
+  width: 40px;
+  height: 20px;
 }
 
 /* bricks right */

@@ -3,12 +3,9 @@
 /* rooftop shadow: right */
 section:nth-of-type(4) div:nth-of-type(1) {
   background-color: var(--roof-top-right);
-
   transform: translateY(-575px) translateX(260px) translateZ(140px) rotateX(0deg);
-
-  /* width:400px height:10px */
-  width: 125px;
-  height: calc(var(--height) * 5);
+  width: 300px;
+  height: 40px;
 }
 
 /* rooftop shadow: left */
@@ -17,7 +14,6 @@ section:nth-of-type(4) div:nth-of-type(2) {
 
   transform: translateY(-574px) translateX(198px) translateZ(80px) rotateY(90deg) rotateX(0deg);
 
-  /* width:400px height:10px */
-  width: 125px;
-  height: calc(var(--height) * 5);
+  width: 300px;
+  height: 40px;
 }

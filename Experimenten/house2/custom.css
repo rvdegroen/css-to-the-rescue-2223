@@ -33,15 +33,14 @@
   --door-knob-right: linear-gradient(to top, #655a5a, #7c7171);
   --door-knob-left: linear-gradient(to top, #5f5454, #716666);
 
-  /* door ramp */
-  --door-ramp-top: #b69b86;
-  --door-ramp-right: #927160;
-  --door-ramp-left: #73584c;
-
   /*  windows  */
-  --window-top: #bb5832;
-  --window-left: #85351d;
-  --window-right: #452115;
+  --window-light: #ff8a00;
+  --window-frame: #8f7977;
+  --window-side: #aa8783;
+  --window-bottom: #745e5c;
+  --window-curtain: #3e5064;
+
+  /* curtains */
 
   /*  lamp  */
   --lamp-light: linear-gradient(0deg, #ffa928 0%, #ffa92800 100%);

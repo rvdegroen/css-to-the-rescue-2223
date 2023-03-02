@@ -1,0 +1,22 @@
+/* chimney part 1 container (2 shadows within) */
+/* chimney left */
+section:nth-of-type(12) div:nth-of-type(1) {
+  background-color: var(--chimney-upper-left);
+  transform: translateX(195px) translateY(-408px) translateZ(278px) rotateX(90deg);
+  transform-origin: top center;
+  width: 45px;
+  height: 45px;
+  /* used: https://bennettfeely.com/clippy/ */
+  clip-path: polygon(100% 0, 0% 100%, 0 0);
+}
+
+/* chimney right */
+section:nth-of-type(12) div:nth-of-type(2) {
+  background-color: var(--chimney-upper-right);
+  transform: translateX(195px) translateY(-408px) translateZ(278px) rotateX(90deg);
+  transform-origin: top center;
+  width: 45px;
+  height: 45px;
+  /* used: https://bennettfeely.com/clippy/ */
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}

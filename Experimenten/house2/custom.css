@@ -63,17 +63,13 @@
 
   /*  chimney base */
   --chimney-smoke: #f2f0ef;
-  --chimney-base-right: #c7b5ab;
-  --chimney-base-left: #b08e82;
-
-  /*  chimney top */
-  --chimney-top-right: #6e5046;
-  --chimney-top-left: #5a3f36;
+  --chimney-base-right: #88544e;
+  --chimney-base-left: #622e2d;
 
   /*  chimney upper */
-  --chimney-upper-top: #e3dcd8;
-  --chimney-upper-left: #716359;
-  --chimney-upper-right: #564c44;
+  --chimney-upper-top: #b87a73;
+  --chimney-upper-left: #703636;
+  --chimney-upper-right: #522625;
 
   /*  tree  */
   --tree-top-top: #719648;

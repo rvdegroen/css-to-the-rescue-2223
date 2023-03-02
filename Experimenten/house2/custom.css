@@ -19,12 +19,9 @@
   --grass-gradient-left: linear-gradient(
     to bottom,
     #374627 15%,
-    #2a351e 0 30%,
-    #4a2419 0 45%,
-    #411d13 0 60%,
-    #38160d 0 75%,
-    #2f0e07 0 90%,
-    #260701 0
+    #2a351e 0 35%,
+    #4a2419 0 60%,
+    #411d13 0
   );
 
   /* dirt colors */

@@ -18,19 +18,58 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-/* clouds animation */
-@keyframes cloudsRight {
+/* right clouds animations */
+@keyframes cloudOne {
   from {
-    transform: translateX(600px) translateY(-1500px) translateZ(172px);
+    transform: translateX(300px) translateY(-1300px) translateZ(172px);
   }
 
   to {
-    transform: translateX(2200px) translateY(-1300px) translateZ(172px);
+    transform: translateX(2300px) translateY(-1300px) translateZ(172px);
+  }
+}
+
+@keyframes cloudTwo {
+  from {
+    transform: translateX(650px) translateY(-2000px);
+  }
+
+  to {
+    transform: translateX(2350px) translateY(-2000px);
+  }
+}
+
+@keyframes cloudThree {
+  from {
+    transform: translateX(650px) translateY(-1800px);
+  }
+
+  to {
+    transform: translateX(2350px) translateY(-1800px);
   }
 }
 
 section:nth-of-type(14) div:nth-of-type(1) {
-  animation: cloudsRight 10s infinite linear;
+  animation-name: cloudOne;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+section:nth-of-type(14) div:nth-of-type(2) {
+  animation-name: cloudTwo;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+}
+
+section:nth-of-type(14) div:nth-of-type(3) {
+  animation-name: cloudThree;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s;
 }
 
 /* opacity animation */

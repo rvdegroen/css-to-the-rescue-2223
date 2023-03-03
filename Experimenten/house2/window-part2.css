@@ -1,13 +1,6 @@
 /* window part 2 container for the bottom and container */
 /* animate curtain on hover with height 85px */
 
-/* curtain sizes: open */
-section:nth-of-type(10) div:nth-of-type(2),
-section:nth-of-type(10) div:nth-of-type(4),
-section:nth-of-type(10) div:nth-of-type(6) {
-  height: var(--curtain-size-open);
-}
-
 /*** RIGHT SIDE WINDOWS ***/
 
 /* window bottom */
@@ -19,20 +12,12 @@ section:nth-of-type(10) div:nth-of-type(1) {
   height: 8px;
 }
 
-/* curtain */
-section:nth-of-type(10) div:nth-of-type(2) {
-  background-color: var(--window-curtain);
-  /* with translateZ:300 the door is on the edge in the corner */
-  transform: translateY(-201px) translateX(442px) translateZ(488px) rotateY(90deg);
-  width: 65px;
-}
-
 /*** LEFT SIDE WINDOWS ***/
 
 /** right window **/
 
 /* window bottom */
-section:nth-of-type(10) div:nth-of-type(3) {
+section:nth-of-type(10) div:nth-of-type(2) {
   background-color: var(--left-window-bottom);
   /* with translateZ:300 the door is on the edge in the corner */
   transform: translateY(-104px) translateX(322px) translateZ(300px) rotateX(90deg);
@@ -40,29 +25,13 @@ section:nth-of-type(10) div:nth-of-type(3) {
   height: 8px;
 }
 
-/* curtain */
-section:nth-of-type(10) div:nth-of-type(4) {
-  background-color: var(--left-window-curtain);
-  /* with translateZ:300 the door is on the edge in the corner */
-  transform: translateY(-185px) translateX(318px) translateZ(300px);
-  width: 65px;
-}
-
 /** left window **/
 
 /* window bottom */
-section:nth-of-type(10) div:nth-of-type(5) {
+section:nth-of-type(10) div:nth-of-type(3) {
   background-color: var(--left-window-bottom);
   /* with translateZ:300 the door is on the edge in the corner */
   transform: translateY(-104px) translateX(212px) translateZ(300px) rotateX(90deg);
   width: 65px;
   height: 8px;
-}
-
-/* curtain */
-section:nth-of-type(10) div:nth-of-type(6) {
-  background-color: var(--left-window-curtain);
-  /* with translateZ:300 the door is on the edge in the corner */
-  transform: translateY(-185px) translateX(208px) translateZ(300px);
-  width: 65px;
 }

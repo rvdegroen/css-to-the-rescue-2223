@@ -1,0 +1,13 @@
+/* h1 container with the div (arrow) */
+h1 > span {
+  display: block;
+  width: 20px;
+  height: 5px;
+  left: 50px;
+  transform: translateY(30px) translateX(69px) translate(-50%, -50%) rotate(45deg);
+  background: var(--text);
+}
+
+h1 > span:nth-of-type(2) {
+  transform: translateY(25px) translateX(80px) translate(-50%, -50%) rotate(135deg);
+}

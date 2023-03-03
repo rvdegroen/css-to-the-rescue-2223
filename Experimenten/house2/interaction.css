@@ -1,14 +1,3 @@
-/*** NORMAL STYLING ***/
-
-body {
-  background-color: var(--dark-background);
-}
-
-main {
-  transition: ease-in-out 0.5s;
-  filter: sepia() brightness(0.3) hue-rotate(190deg) saturate(3);
-}
-
 /*** HOVERS ***/
 
 /* main hover */

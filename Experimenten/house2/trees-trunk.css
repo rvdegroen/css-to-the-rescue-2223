@@ -2,7 +2,7 @@
 /* tree 1 right */
 section:nth-of-type(15) div:nth-of-type(1) {
   background-color: var(--tree-bottom-right);
-  transform: translateX(117.5px) translateY(-410px) translateZ(177.5px) rotateY(90deg);
+  transform: translateX(62.5px) translateY(-410px) translateZ(177.5px) rotateY(90deg);
   width: 15px;
   height: 500px;
 }
@@ -10,7 +10,7 @@ section:nth-of-type(15) div:nth-of-type(1) {
 /* tree 1 left */
 section:nth-of-type(15) div:nth-of-type(2) {
   background-color: var(--tree-bottom-left);
-  transform: translateX(110px) translateY(-410px) translateZ(170px) rotateY(0);
+  transform: translateX(55px) translateY(-410px) translateZ(170px) rotateY(0);
   width: 15px;
   height: 500px;
 }

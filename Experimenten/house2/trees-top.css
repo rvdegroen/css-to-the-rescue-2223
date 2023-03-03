@@ -3,7 +3,7 @@
 /* tree top 1 right */
 section:nth-of-type(16) div:nth-of-type(1) {
   background-color: var(--tree-top-right);
-  transform: translateX(110px) translateY(-347px) translateZ(185px) rotateY(90deg);
+  transform: translateX(55px) translateY(-347px) translateZ(185px) rotateY(90deg);
   width: 180px;
   height: 180px;
 }
@@ -11,7 +11,7 @@ section:nth-of-type(16) div:nth-of-type(1) {
 /* tree top 1 left */
 section:nth-of-type(16) div:nth-of-type(2) {
   background-color: var(--tree-top-left);
-  transform: translateX(20px) translateY(-347px) translateZ(95px) rotateY(0);
+  transform: translateX(-35px) translateY(-347px) translateZ(95px) rotateY(0);
   width: 180px;
   height: 180px;
 }
@@ -19,7 +19,7 @@ section:nth-of-type(16) div:nth-of-type(2) {
 /* tree top 1 top */
 section:nth-of-type(16) div:nth-of-type(3) {
   background-color: var(--tree-top-top);
-  transform: translateX(20px) translateY(-347px) translateZ(94px) rotateX(90deg);
+  transform: translateX(-35px) translateY(-347px) translateZ(94px) rotateX(90deg);
   transform-origin: top center;
   width: 180px;
   height: 180px;

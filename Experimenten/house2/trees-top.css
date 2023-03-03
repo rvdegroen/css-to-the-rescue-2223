@@ -1,0 +1,51 @@
+/* trees top container */
+
+/* tree top 1 right */
+section:nth-of-type(16) div:nth-of-type(1) {
+  background-color: var(--tree-top-right);
+  transform: translateX(130px) translateY(-447px) translateZ(185px) rotateY(90deg);
+  width: 180px;
+  height: 180px;
+}
+
+/* tree top 1 left */
+section:nth-of-type(16) div:nth-of-type(2) {
+  background-color: var(--tree-top-left);
+  transform: translateX(40px) translateY(-447px) translateZ(95px) rotateY(0);
+  width: 180px;
+  height: 180px;
+}
+
+/* tree top 1 top */
+section:nth-of-type(16) div:nth-of-type(3) {
+  background-color: var(--tree-top-top);
+  transform: translateX(40px) translateY(-447px) translateZ(94px) rotateX(90deg);
+  transform-origin: top center;
+  width: 180px;
+  height: 180px;
+}
+
+/* tree top 2 right */
+section:nth-of-type(16) div:nth-of-type(4) {
+  background-color: var(--tree-top-right);
+  transform: translateX(557.5px) translateY(-447px) translateZ(607.5px) rotateY(90deg);
+  width: 180px;
+  height: 180px;
+}
+
+/* tree top 2 left */
+section:nth-of-type(16) div:nth-of-type(5) {
+  background-color: var(--tree-top-left);
+  transform: translateX(385px) translateY(-330px) translateZ(600px) rotateY(0);
+  width: 180px;
+  height: 180px;
+}
+
+/* tree top 2 top */
+section:nth-of-type(16) div:nth-of-type(6) {
+  background-color: var(--tree-top-top);
+  transform: translateX(385px) translateY(-330px) translateZ(599px) rotateX(90deg);
+  transform-origin: top center;
+  width: 180px;
+  height: 180px;
+}

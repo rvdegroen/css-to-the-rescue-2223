@@ -67,12 +67,3 @@ section:nth-of-type(11) div:nth-of-type(6) {
   width: 65px;
   height: var(--curtain-size-open);
 }
-
-/* CURTAINS HOVER */
-
-section:nth-of-type(11):hover div:nth-of-type(4),
-section:nth-of-type(11):hover div:nth-of-type(5),
-section:nth-of-type(11):hover div:nth-of-type(6) {
-  height: var(--curtain-size-closed);
-  cursor: pointer;
-}

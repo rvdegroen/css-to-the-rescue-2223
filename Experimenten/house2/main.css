@@ -1,5 +1,8 @@
+/* custom colors and sizes */
 @import url("./custom.css");
+/* grass */
 @import url("./grass.css");
+/* house */
 @import url("./house.css");
 @import url("./bricks.css");
 @import url("./roof.css");
@@ -12,8 +15,13 @@
 @import url("./window-part3.css");
 @import url("./chimney-part1.css");
 @import url("./chimney-part2.css");
+/* trees */
+@import url("./trees-trunk.css");
+@import url("./trees-top.css");
+/* above the house */
 @import url("./clouds.css");
 @import url("./h1.css");
+/* other */
 @import url("./interaction.css");
 @import url("./animations.css");
 @import url("./global.css");

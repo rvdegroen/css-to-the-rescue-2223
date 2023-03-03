@@ -1,6 +1,8 @@
 :root {
   /* background colors */
   --background-normal: #313131;
+  --gradient1: radial-gradient(circle at 90% 80%, rgb(255, 87, 20), rgb(10, 32, 131));
+  --gradient2: #26242e;
 
   /* grass colors */
   --grass-top: #7b8a53;

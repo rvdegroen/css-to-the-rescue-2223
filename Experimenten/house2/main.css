@@ -18,9 +18,8 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  background-color: var(--background-normal);
   overflow: hidden;
-  background: radial-gradient(circle at 90% 80%, rgb(255, 87, 20), rgb(10, 32, 131));
+  background: var(--gradient1);
 }
 
 main {
@@ -29,6 +28,12 @@ main {
   position: absolute;
   top: 56vh;
   left: 22vw;
+  transform: translateY(60px);
+  transition: ease-out 0.3s;
+}
+
+main:hover {
+  transform: translateY(0);
 }
 
 /* all sections */

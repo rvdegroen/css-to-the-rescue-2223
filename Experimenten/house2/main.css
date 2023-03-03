@@ -12,6 +12,9 @@
 @import url("./window-part3.css");
 @import url("./chimney-part1.css");
 @import url("./chimney-part2.css");
+@import url("./clouds.css");
+@import url("./interaction.css");
+@import url("./animations.css");
 
 /* global styling */
 body {
@@ -19,7 +22,6 @@ body {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background: var(--gradient1);
 }
 
 main {
@@ -28,12 +30,16 @@ main {
   position: absolute;
   top: 56vh;
   left: 22vw;
-  transform: translateY(60px);
-  transition: ease-out 0.3s;
 }
 
-main:hover {
-  transform: translateY(0);
+h1 {
+  position: absolute;
+  color: white;
+  top: 240px;
+  left: 46%;
+  font-family: font-family: 'Cutive', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;;
 }
 
 /* all sections */

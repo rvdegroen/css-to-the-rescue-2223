@@ -29,7 +29,9 @@ main {
   /* aspect-ratio: 1;
     transform-style: preserve-3d;  */
   position: absolute;
-  transform: translateY(55vh);
+  transform: translateY(79vh);
+  left: 27.8vw;
+  scale: 0.8;
 }
 
 /* all sections */

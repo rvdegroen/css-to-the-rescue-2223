@@ -55,8 +55,11 @@ section {
 }
 
 @media only screen and (max-width: 1500px) {
-  main {
+  body {
     transform: scale(0.6);
+  }
+
+  main {
     left: 24vw;
   }
 }

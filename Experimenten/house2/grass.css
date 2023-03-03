@@ -2,22 +2,22 @@
 
 /* grass container: left */
 section:nth-of-type(1) div:nth-of-type(1) {
-  background: var(--grass-gradient-left);
+  background: var(--grass-left);
 
   transform: rotateY(0deg);
   transform-origin: right center;
   width: 750px;
-  height: 585px;
+  height: 60px;
 }
 
 /* grass container: right */
 section:nth-of-type(1) div:nth-of-type(2) {
-  background: var(--grass-gradient-right);
+  background: var(--grass-right);
 
   transform: rotateY(90deg);
   transform-origin: right center;
   width: 750px;
-  height: 585px;
+  height: 60px;
 }
 
 /* grass container: top */

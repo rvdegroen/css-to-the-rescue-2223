@@ -29,16 +29,7 @@ main {
   /* aspect-ratio: 1;
     transform-style: preserve-3d;  */
   position: absolute;
-  top: 56vh;
-  left: 22vw;
-}
-
-h1 {
-  position: absolute;
-  color: var(--text);
-  top: 170px;
-  left: 46%;
-  font-family: "Work Sans", sans-serif;
+  transform: translateY(55vh);
 }
 
 /* all sections */
@@ -60,6 +51,6 @@ section {
   }
 
   main {
-    left: 24vw;
+    left: 9vw;
   }
 }

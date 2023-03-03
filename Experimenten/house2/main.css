@@ -34,6 +34,14 @@ main {
   scale: 0.8;
 }
 
+h1 {
+  position: absolute;
+  color: var(--text);
+  top: 5vh;
+  left: 46%;
+  font-family: "Work Sans", sans-serif;
+}
+
 /* all sections */
 section {
   transform: rotatex(45deg) rotateY(45deg);
@@ -49,11 +57,15 @@ section {
 
 @media only screen and (max-width: 1500px) {
   body {
-    transform: scale(0.6);
+    transform: scale(0.65);
   }
 
   main {
-    left: 9vw;
-    transform: translateY(56vh);
+    left: 13vw;
+    transform: translateY(80vh);
+  }
+
+  h1 {
+    top: 1vh;
   }
 }

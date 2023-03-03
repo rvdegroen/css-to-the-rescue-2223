@@ -1,11 +1,4 @@
 /* h1 container with the div (arrow) */
-h1 {
-  position: absolute;
-  color: var(--text);
-  top: 5vh;
-  left: 46%;
-  font-family: "Work Sans", sans-serif;
-}
 
 h1 > span {
   display: block;

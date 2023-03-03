@@ -11,20 +11,34 @@
 }
 
 h1 {
-  animation: hoverMe 0.5s ease-in infinite alternate-reverse;
+  animation-name: hoverMe, opacity;
+  animation-duration: 0.5s, 5s;
+  animation-iteration-count: infinite, 1;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
 }
 
 /* clouds animation */
-@keyframes clouds {
+@keyframes cloudsRight {
   from {
-    transform: translateX(258px) translateY(-1500px) translateZ(172px);
+    transform: translateX(600px) translateY(-1500px) translateZ(172px);
   }
 
   to {
-    transform: translateX(2000px) translateY(-1300px) translateZ(172px);
+    transform: translateX(2200px) translateY(-1300px) translateZ(172px);
   }
 }
 
 section:nth-of-type(14) div:nth-of-type(1) {
-  animation: clouds 10s infinite linear;
+  animation: cloudsRight 10s infinite linear;
+}
+
+/* opacity animation */
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }

@@ -2,7 +2,8 @@
   /* background colors */
   --background-normal: #313131;
   --gradient1: radial-gradient(circle at 90% 80%, rgb(255, 87, 20), rgb(10, 32, 131));
-  --gradient2: #26242e;
+  --dark-background: #1a1336;
+  --light-background: #4e33bb;
 
   /* grass colors */
   --grass-top: #7b8a53;
@@ -110,6 +111,9 @@
   /* path */
   --path-top: #ffbf95;
   --path-shadow: #d8986e;
+
+  /* other */
+  --cloud: #e7e7e7;
 
   /* sizes */
   --width: 400px;

@@ -23,15 +23,15 @@ body {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  scale: 0.85;
 }
 
 main {
   /* aspect-ratio: 1;
     transform-style: preserve-3d;  */
   position: absolute;
-  transform: translateY(79vh);
-  left: 27.8vw;
-  scale: 0.8;
+  left: 22vw;
+  transform: translateY(64vh);
 }
 
 /* all sections */
@@ -45,24 +45,4 @@ div,
 section {
   position: absolute;
   aspect-ratio: 1;
-}
-
-@media only screen and (max-width: 1500px) {
-  root {
-    --hoverMe1: -20vh;
-    --hoverMe2: -12vh;
-  }
-
-  body {
-    transform: scale(0.65);
-  }
-
-  main {
-    left: 16vw;
-    transform: translateY(80vh);
-  }
-
-  h1 {
-    top: 1vh;
-  }
 }

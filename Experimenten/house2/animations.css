@@ -3,10 +3,10 @@
 /* h1 hover me animation */
 @keyframes hoverMe {
   0% {
-    transform: translateY(var(--hoverMe1));
+    transform: translateY(-40px);
   }
   100% {
-    transform: translateY(var(--hoverMe2));
+    transform: translateY(0px);
   }
 }
 

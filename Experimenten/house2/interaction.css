@@ -1,0 +1,33 @@
+/*** NORMAL STYLING ***/
+
+body {
+  background-color: var(--dark-background);
+}
+
+main {
+  transform: translateY(350px);
+  transition: ease-in-out 0.5s;
+  filter: sepia() brightness(0.3) hue-rotate(190deg) saturate(3);
+}
+
+/*** HOVERS ***/
+
+/* main hover */
+main:hover {
+  transition: ease-in-out 0.5s;
+  transform: translateY(0);
+  filter: none;
+}
+
+/* while hovering on main: clouds */
+/* main:hover section:nth-of-type(14) {
+  filter: opacity(0);
+} */
+
+/* while hovering on window frame section: curtains */
+section:nth-of-type(11):hover div:nth-of-type(4),
+section:nth-of-type(11):hover div:nth-of-type(5),
+section:nth-of-type(11):hover div:nth-of-type(6) {
+  height: var(--curtain-size-closed);
+  cursor: pointer;
+}

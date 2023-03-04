@@ -2,7 +2,7 @@
 /* tree 1 right */
 section:nth-of-type(15) div:nth-of-type(1) {
   background-color: var(--tree-bottom-right);
-  transform: translateX(62.5px) translateY(-410px) translateZ(177.5px) rotateY(90deg);
+  transform: translateX(62px) translateY(-410px) translateZ(177.5px) rotateY(90deg);
   width: 15px;
   height: 500px;
 }

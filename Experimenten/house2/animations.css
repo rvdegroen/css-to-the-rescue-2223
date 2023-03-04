@@ -10,6 +10,15 @@
   }
 }
 
+@keyframes hoverMeLaptop {
+  0% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+
 h1 {
   animation-name: hoverMe, opacity;
   animation-duration: 0.5s, 5s;

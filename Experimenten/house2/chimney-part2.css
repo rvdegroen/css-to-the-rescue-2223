@@ -13,7 +13,7 @@ section:nth-of-type(13) div:nth-of-type(2) {
   background-color: var(--chimney-base-left);
   transform: translateX(195px) translateY(-408px) translateZ(278px) rotateY(0);
   width: 45px;
-  height: 50px;
+  height: 56px;
 }
 
 /* chimney top */

@@ -3,8 +3,8 @@
 /* roof container: right */
 section:nth-of-type(5) div:nth-of-type(1) {
   background-color: var(--roof-right);
-  transform: translateX(418px) translateY(-508px) translateZ(332px) rotateY(90deg);
-  width: 320px;
+  transform: translateX(418px) translateY(-509px) translateZ(331px) rotateY(90deg);
+  width: 321px;
   height: 40px;
 }
 

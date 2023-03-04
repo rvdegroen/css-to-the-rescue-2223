@@ -18,6 +18,10 @@
 /* trees */
 @import url("./trees-trunk.css");
 @import url("./trees-top.css");
+/* campfire */
+@import url("./campfire.css");
+/* path */
+@import url("./path.css");
 /* above the house */
 @import url("./clouds.css");
 @import url("./h1.css");

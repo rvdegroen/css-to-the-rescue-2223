@@ -19,6 +19,16 @@
   }
 }
 
+/* h1 opacity animation */
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 h1 {
   animation-name: hoverMe, opacity;
   animation-duration: 0.5s, 5s;
@@ -30,11 +40,11 @@ h1 {
 /* right clouds animations */
 @keyframes cloudOne {
   from {
-    transform: translateX(50px) translateY(-1600px);
+    transform: translateX(800px) translateY(-1830px);
   }
 
   to {
-    transform: translateX(2300px) translateY(-1600px);
+    transform: translateX(800px) translateY(-1830px);
   }
 }
 
@@ -79,12 +89,56 @@ section:nth-of-type(14) div:nth-of-type(3) {
   animation-timing-function: linear;
 }
 
-/* opacity animation */
-@keyframes opacity {
-  0% {
-    opacity: 0%;
+/* left clouds animations */
+@keyframes cloudFour {
+  from {
+    transform: translateX(-900px) translateY(420px) translateZ(1500px) rotateY(90deg);
   }
-  100% {
-    opacity: 100%;
+
+  to {
+    transform: translateX(-900px) translateY(420px) translateZ(-100px) rotateY(90deg);
   }
+}
+
+@keyframes cloudFive {
+  from {
+    transform: translateX(-900px) translateY(-300px) translateZ(450) rotateY(90deg);
+  }
+
+  to {
+    transform: translateX(-900px) translateY(-300px) translateZ(-300px) rotateY(90deg);
+  }
+}
+
+@keyframes cloudSix {
+  from {
+    transform: translateX(-900px) translateZ(920px) rotateY(90deg);
+  }
+
+  to {
+    transform: translateX(-900px) translateZ(-200px) rotateY(90deg);
+  }
+}
+
+section:nth-of-type(14) div:nth-of-type(4) {
+  animation-name: cloudFour;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+}
+
+section:nth-of-type(14) div:nth-of-type(5) {
+  animation-name: cloudFive;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 6s;
+}
+
+section:nth-of-type(14) div:nth-of-type(6) {
+  animation-name: cloudSix;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }

@@ -1,0 +1,20 @@
+/*** HOVERS ***/
+
+/* main hover */
+main:hover {
+  transition: 0.5s ease-in-out;
+  filter: none;
+}
+
+/* while hovering on main: clouds */
+/* main:hover section:nth-of-type(14) {
+  filter: opacity(0);
+} */
+
+/* while hovering on window frame section: curtains */
+section:nth-of-type(11):hover div:nth-of-type(4),
+section:nth-of-type(11):hover div:nth-of-type(5),
+section:nth-of-type(11):hover div:nth-of-type(6) {
+  height: var(--curtain-size-closed);
+  cursor: pointer;
+}

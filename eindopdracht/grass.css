@@ -1,0 +1,30 @@
+/* grass container */
+
+/* grass container: left */
+main > section:nth-of-type(1) div:nth-of-type(1) {
+  background: var(--grass-left);
+
+  transform: rotateY(0deg);
+  transform-origin: right center;
+  width: 750px;
+  height: 40px;
+}
+
+/* grass container: right */
+main > section:nth-of-type(1) div:nth-of-type(2) {
+  background: var(--grass-right);
+
+  transform: rotateY(90deg);
+  transform-origin: right center;
+  width: 750px;
+  height: 40px;
+}
+
+/* grass container: top */
+main > section:nth-of-type(1) div:nth-of-type(3) {
+  background-color: var(--grass-top);
+
+  transform: rotateX(90deg);
+  transform-origin: top center;
+  width: 750px;
+}

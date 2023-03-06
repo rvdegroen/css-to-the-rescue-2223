@@ -1,0 +1,39 @@
+/* roof container top and edges*/
+
+/* roof container: right */
+section:nth-of-type(5) div:nth-of-type(1) {
+  background-color: var(--roof-right);
+  transform: translateX(418px) translateY(-509px) translateZ(331px) rotateY(90deg);
+  width: 321px;
+  height: 40px;
+}
+
+/* roof container: left */
+section:nth-of-type(5) div:nth-of-type(2) {
+  background-color: var(--roof-left);
+  transform: translateX(258px) translateY(-508px) translateZ(172px) rotateY(0);
+  width: 320px;
+  height: 40px;
+}
+
+/* roof container: top */
+section:nth-of-type(5) div:nth-of-type(3) {
+  background-color: var(--roof-top);
+  transform: translateX(258px) translateY(-507px) translateZ(172px) rotateX(90deg);
+  transform-origin: top center;
+  width: 320px;
+  height: 320px;
+  /* used: https://bennettfeely.com/clippy/ */
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    15% 100%,
+    15% 15%,
+    85% 15%,
+    85% 85%,
+    14% 85%,
+    15% 100%,
+    100% 100%,
+    100% 0%
+  );
+}

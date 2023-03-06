@@ -1,0 +1,122 @@
+:root {
+  /* background colors */
+  --background-normal: #313131;
+  --gradient1: radial-gradient(circle at 90% 80%, rgb(255, 87, 20), rgb(10, 32, 131));
+  --dark-background: #1a1336;
+  --light-background: #4e33bb;
+
+  /* grass colors */
+  --grass-top: #7b8a53;
+  --grass-right: #566139;
+  --grass-left: #374627;
+  --grass-shadow: #3b561c;
+
+  /* grass gradients */
+  --grass-gradient-right: linear-gradient(
+    to bottom,
+    #4a552c 15%,
+    #384429 0 35%,
+    #5e3428 0 60%,
+    #572d20 0
+  );
+  --grass-gradient-left: linear-gradient(
+    to bottom,
+    #374627 15%,
+    #2a351e 0 35%,
+    #4a2419 0 60%,
+    #411d13 0
+  );
+
+  /* dirt colors */
+  --dirt-right: #5d4037;
+  --dirt-left: #3e2723;
+
+  /*  house colors  */
+  --house-right: #f5d0bd;
+  --house-left: #bf9585;
+
+  /* bricks */
+  --house-brick-right: #daa98e;
+  --house-brick-left: #9b7162;
+
+  /* roof colors */
+  --roof-top: #9b615b;
+  --roof-top-within: #774a46;
+  --roof-right: #70403c;
+  --roof-left: #622e2d;
+  --roof-top-left: #4c261f;
+  --roof-top-right: #3f1c13;
+
+  /*  door  */
+  --door-front: #3e5064;
+  --door-edge: #8f7977;
+
+  /* door knob */
+  --door-knob-top: linear-gradient(to left, #847979, #a09595);
+  --door-knob-right: linear-gradient(to top, #655a5a, #7c7171);
+  --door-knob-left: linear-gradient(to top, #5f5454, #716666);
+
+  /*  windows  */
+  /* right side colors */
+  --window-light: #ff8a00;
+  --window-light-off: #553816;
+  --window-frame: #8f7977;
+  --window-side: #7e6563;
+  --window-bottom: #685352;
+  --window-curtain: #48535f;
+
+  /* left side colors */
+  --left-window-light: #e97c00;
+  --left-window-light-off: #4d3215;
+  --left-window-frame: #7e6a69;
+  --left-window-side: #725c5a;
+  --left-window-bottom: #5f4d4c;
+  --left-window-curtain: #3f4953;
+
+  /* window curtain sizes */
+  --curtain-size-open: 55px;
+  --curtain-size-closed: 70px;
+
+  /*  lamp  */
+  --lamp-light: linear-gradient(0deg, #ffa928 0%, #ffa92800 100%);
+  --lamp-top-on: #ffa928;
+  --lamp-top-off: #9c3e12;
+  --lamp-left: #85351d;
+  --lamp-right: #452115;
+
+  /*  chimney base */
+  --chimney-smoke: #f2f0ef;
+  --chimney-base-right: #88544e;
+  --chimney-base-left: #622e2d;
+
+  /*  chimney upper */
+  --chimney-upper-top: #b87a73;
+  --chimney-upper-left: #703636;
+  --chimney-upper-right: #522625;
+
+  /*  tree  */
+  --tree-top-top: #5b793a;
+  --tree-top-right: #3f5329;
+  --tree-top-left: #2a4127;
+  --tree-bottom-right: #64342c;
+  --tree-bottom-left: #442215;
+
+  /* campfire  */
+  --campfire-wood-base: #704638;
+  --campfire-wood-end: #442415;
+  --campfire-fire-within: #eada86;
+  --campfire-fire-middle: #e59459;
+  --campfire-fire-outer: #b52323;
+
+  /* path */
+  --path-top: #cb9768;
+  --path-right: #ab7d54;
+
+  /* other */
+  --cloud: #e7e7e7;
+  --text: #e7e7e7;
+
+  /* sizes */
+  --width: 400px;
+  --height: 10px;
+}

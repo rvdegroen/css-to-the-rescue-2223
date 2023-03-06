@@ -1,0 +1,69 @@
+/* window part 3 container for the frame*/
+
+/*** RIGHT SIDE WINDOWS ***/
+
+/* window frame */
+section:nth-of-type(11) div:nth-of-type(1) {
+  background-color: none;
+  transform: translateY(-222px) translateX(442px) translateZ(480px) rotateY(90deg);
+  border: 10px solid var(--window-frame);
+  border-left: 8px solid var(--window-frame);
+  border-right: 8px solid var(--window-frame);
+  width: 65px;
+  height: 90px;
+}
+
+/*** LEFT SIDE WINDOWS ***/
+
+/** right side window **/
+/* window frame */
+section:nth-of-type(11) div:nth-of-type(2) {
+  background-color: none;
+  transform: translateY(-209px) translateX(210px) translateZ(290px);
+  border: 10px solid var(--left-window-frame);
+  border-left: 8px solid var(--left-window-frame);
+  border-right: 8px solid var(--left-window-frame);
+  width: 65px;
+  height: 90px;
+}
+
+/** left side window **/
+/* window frame */
+section:nth-of-type(11) div:nth-of-type(3) {
+  background-color: none;
+  transform: translateY(-209px) translateX(320px) translateZ(290px);
+  border: 10px solid var(--left-window-frame);
+  border-left: 8px solid var(--left-window-frame);
+  border-right: 8px solid var(--left-window-frame);
+  width: 65px;
+  height: 90px;
+}
+
+/* CURTAINS */
+
+/** curtain right side **/
+
+section:nth-of-type(11) div:nth-of-type(4) {
+  background-color: var(--window-curtain);
+  transform: translateY(-201px) translateX(442px) translateZ(488px) rotateY(90deg);
+  width: 65px;
+  height: var(--curtain-size-open);
+}
+
+/** curtains left side **/
+
+/* right */
+section:nth-of-type(11) div:nth-of-type(5) {
+  background-color: var(--left-window-curtain);
+  transform: translateY(-185px) translateX(318px) translateZ(300px);
+  width: 65px;
+  height: var(--curtain-size-open);
+}
+
+/* left */
+section:nth-of-type(11) div:nth-of-type(6) {
+  background-color: var(--left-window-curtain);
+  transform: translateY(-185px) translateX(208px) translateZ(300px);
+  width: 65px;
+  height: var(--curtain-size-open);
+}

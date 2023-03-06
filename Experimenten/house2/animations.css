@@ -12,10 +12,10 @@
 
 @keyframes hoverMeLaptop {
   0% {
-    top: 0;
+    top: -10px;
   }
   100% {
-    top: 100px;
+    top: -45px;
   }
 }
 

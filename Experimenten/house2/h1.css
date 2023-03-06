@@ -7,7 +7,6 @@ h1 {
 }
 
 h1 > span {
-  position: absolute;
   display: block;
   width: 20px;
   height: 5px;

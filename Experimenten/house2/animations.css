@@ -3,15 +3,6 @@
 /* h1 hover me animation */
 @keyframes hoverMe {
   0% {
-    transform: translateY(-40px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-@keyframes hoverMeLaptop {
-  0% {
     top: -10px;
   }
   100% {

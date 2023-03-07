@@ -8,8 +8,9 @@ body > section:nth-of-type(2) {
 /* used this tutorial: https://www.youtube.com/watch?v=ATiTwBSG5CE */
 
 /* clouds right side */
-/* cloud 1 */
+/* cloud 1*/
 body > section:nth-of-type(2) div:nth-of-type(1) {
+  position: absolute;
   background-color: var(--cloud);
   width: 100px;
   height: 40px;
@@ -28,6 +29,101 @@ body > section:nth-of-type(2) div:nth-of-type(1)::before {
 }
 
 body > section:nth-of-type(2) div:nth-of-type(1)::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  right: 20%;
+  width: 30px;
+  height: 60px;
+  background: var(--cloud);
+  border-radius: 100px;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(2) {
+  scale: 0.9;
+  position: absolute;
+  background-color: var(--cloud);
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(2)::before {
+  content: "";
+  position: absolute;
+  top: -80%;
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  background: var(--cloud);
+  border-radius: 100px;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(2)::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  right: 20%;
+  width: 30px;
+  height: 60px;
+  background: var(--cloud);
+  border-radius: 100px;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(3) {
+  scale: 0.8;
+  position: absolute;
+  background-color: var(--cloud);
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(3)::before {
+  content: "";
+  position: absolute;
+  top: -80%;
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  background: var(--cloud);
+  border-radius: 100px;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(3)::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  right: 20%;
+  width: 30px;
+  height: 60px;
+  background: var(--cloud);
+  border-radius: 100px;
+}
+
+/* cloud left side */
+/* cloud 4 */
+body > section:nth-of-type(2) div:nth-of-type(4) {
+  transform: skewY(-55deg);
+  position: absolute;
+  background-color: var(--cloud);
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(4)::before {
+  content: "";
+  position: absolute;
+  top: -80%;
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  background: var(--cloud);
+  border-radius: 100px;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(4)::after {
   content: "";
   position: absolute;
   top: -60%;

@@ -30,18 +30,49 @@
   }
 }
 
+/* cloud animations */
 @keyframes rightCloud1 {
+  0% {
+    /* to the right */
+    left: 700px;
+    /* to the top */
+    bottom: 700px;
+  }
+  100% {
+    /* to the right */
+    left: 1950px;
+    /* to the top */
+    bottom: 700px;
+  }
+}
+
+@keyframes rightCloud2 {
   0% {
     /* to the right */
     left: 900px;
     /* to the top */
-    bottom: 800px;
+    bottom: 900px;
   }
   100% {
     /* to the right */
     left: 1900px;
     /* to the top */
-    bottom: 800px;
+    bottom: 900px;
+  }
+}
+
+@keyframes rightCloud3 {
+  0% {
+    /* to the right */
+    left: 900px;
+    /* to the top */
+    bottom: 1100px;
+  }
+  100% {
+    /* to the right */
+    left: 1900px;
+    /* to the top */
+    bottom: 1100px;
   }
 }
 
@@ -59,7 +90,21 @@ h1 {
 /* right clouds elements */
 body > section:nth-of-type(2) div:nth-of-type(1) {
   animation-name: rightCloud1;
-  animation-duration: 10s;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(2) {
+  animation-name: rightCloud2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(3) {
+  animation-name: rightCloud3;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }

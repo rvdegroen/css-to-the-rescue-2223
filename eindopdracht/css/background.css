@@ -5,7 +5,7 @@ body > div:nth-of-type(1) {
   bottom: 0;
   left: -9vw;
   width: 1460px;
-  height: 660px;
+  height: 700px;
   background: var(--dark-background);
   z-index: -1;
   /* off hover uses the regular state */

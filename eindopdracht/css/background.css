@@ -7,4 +7,5 @@ body > div:nth-of-type(1) {
   width: 1460px;
   height: 660px;
   background: var(--dark-background);
+  z-index: -1;
 }

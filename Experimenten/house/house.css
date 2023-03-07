@@ -1,15 +1,15 @@
 /* house container */
 
 /* height and width of all walls */
-section:nth-of-type(2) div:nth-of-type(1),
-section:nth-of-type(2) div:nth-of-type(2) {
+main > section:nth-of-type(2) div:nth-of-type(1),
+main > section:nth-of-type(2) div:nth-of-type(2) {
   /* width = 30vh, height = 3vh */
   width: calc(var(--width) / 1.8);
   height: calc(var(--height) * 6);
 }
 
 /* house container: left */
-section:nth-of-type(2) div:nth-of-type(1) {
+main > section:nth-of-type(2) div:nth-of-type(1) {
   background-color: var(--house-left);
 
   transform: translateY(-58vh) translateX(13vw) rotatey(0deg);
@@ -17,7 +17,7 @@ section:nth-of-type(2) div:nth-of-type(1) {
 }
 
 /* house container: right */
-section:nth-of-type(2) div:nth-of-type(2) {
+main > section:nth-of-type(2) div:nth-of-type(2) {
   background-color: var(--house-right);
 
   transform: translateY(-58vh) translateX(13vw) rotatey(90deg);

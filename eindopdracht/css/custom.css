@@ -1,9 +1,13 @@
 :root {
   /* background colors */
-  --background-normal: #313131;
-  --gradient1: radial-gradient(circle at 90% 80%, rgb(255, 87, 20), rgb(10, 32, 131));
-  --dark-background: #1a1336;
-  --light-background: #4e33bb;
+  --color1dark: #245c8d;
+  --color2dark: #1a1336;
+  --color1light: #fedc98;
+  --color2light: #f9906d;
+
+  /* gradients */
+  --light-background: radial-gradient(circle at 52% 62%, #fedc98, #f9906d);
+  --dark-background: radial-gradient(circle at 52% 62%, #245c8d, #1a1336);
 
   /* grass colors */
   --grass-top: #7b8a53;

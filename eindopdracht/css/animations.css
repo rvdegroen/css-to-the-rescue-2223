@@ -34,15 +34,15 @@
 @keyframes rightCloud1 {
   0% {
     /* to the right */
-    left: 700px;
+    left: 770px;
     /* to the top */
-    bottom: 700px;
+    bottom: 720px;
   }
   100% {
     /* to the right */
-    left: 1950px;
+    left: 2050px;
     /* to the top */
-    bottom: 700px;
+    bottom: 720px;
   }
 }
 
@@ -76,6 +76,54 @@
   }
 }
 
+@keyframes leftCloud1 {
+  0% {
+    /* bottom */
+    top: 720px;
+    /* left, increase to go more left */
+    right: 160px;
+  }
+
+  100% {
+    /* bottom */
+    top: -800px;
+    /* left */
+    right: -980px;
+  }
+}
+
+@keyframes leftCloud2 {
+  0% {
+    /* bottom */
+    top: 520px;
+    /* left, increase to go more left */
+    right: 160px;
+  }
+
+  100% {
+    /* bottom */
+    top: -1000px;
+    /* left */
+    right: -980px;
+  }
+}
+
+@keyframes leftCloud3 {
+  0% {
+    /* bottom */
+    top: 300px;
+    /* left, increase to go more left */
+    right: 160px;
+  }
+
+  100% {
+    /* bottom */
+    top: -1220px;
+    /* left */
+    right: -980px;
+  }
+}
+
 /*** ELEMENTS ***/
 
 /* h1 hover me element */
@@ -104,6 +152,28 @@ body > section:nth-of-type(2) div:nth-of-type(2) {
 
 body > section:nth-of-type(2) div:nth-of-type(3) {
   animation-name: rightCloud3;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* left clouds elements */
+body > section:nth-of-type(2) div:nth-of-type(4) {
+  animation-name: leftCloud1;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(5) {
+  animation-name: leftCloud2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+body > section:nth-of-type(2) div:nth-of-type(6) {
+  animation-name: leftCloud3;
   animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;

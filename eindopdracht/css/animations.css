@@ -29,16 +29,16 @@ h1 {
 }
 
 /* right clouds animations */
-/* @keyframes cloudOne {
-  from {
-    transform: translateX(800px) translateY(-1830px);
+@keyframes cloudOne {
+  0% {
+    transform: translateX(400px) translateY(0px) translateZ(0px);
   }
 
-  to {
-    transform: translateX(2300px) translateY(-1830px);
+  100% {
+    transform: translateX(400px) translateY(0px) translateZ(0px);
   }
 }
-
+/*
 @keyframes cloudTwo {
   from {
     transform: translateX(-100px) translateZ(1600px);
@@ -59,14 +59,13 @@ h1 {
   }
 } */
 
-/* section:nth-of-type(14) div:nth-of-type(1) {
+body > section:nth-of-type(2) div:nth-of-type(1) {
   animation-name: cloudOne;
   animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-delay: 5s;
 }
-
+/*
 section:nth-of-type(14) div:nth-of-type(2) {
   animation-name: cloudTwo;
   animation-duration: 9s;

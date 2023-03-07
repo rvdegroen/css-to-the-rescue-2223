@@ -1,4 +1,8 @@
 /* clouds container */
+/* off hover */
+body > section:nth-of-type(2) {
+  transition: 0.5s ease-in-out;
+}
 
 /* used this tutorial: https://www.youtube.com/watch?v=ATiTwBSG5CE */
 

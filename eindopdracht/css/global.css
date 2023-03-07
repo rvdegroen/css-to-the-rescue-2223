@@ -29,3 +29,7 @@ main {
   filter: sepia() brightness(0.3) hue-rotate(190deg) saturate(3);
   transform: translateY(64vh);
 }
+
+body > section:nth-of-type(2) {
+  filter: sepia() brightness(0.3) hue-rotate(190deg) saturate(3);
+}

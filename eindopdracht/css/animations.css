@@ -30,30 +30,20 @@
   }
 }
 
-/* right clouds animations */
-@keyframes cloudOne {
+@keyframes rightCloud1 {
   0% {
-    top: -100px;
-    right: -100px;
+    /* to the right */
+    left: 900px;
+    /* to the top */
+    bottom: 800px;
   }
-
   100% {
-    top: -100px;
-    right: -500px;
+    /* to the right */
+    left: 1900px;
+    /* to the top */
+    bottom: 800px;
   }
 }
-
-/* left clouds animations */
-/* @keyframes cloudFour {
-  from {
-    transform: translateX(400px) translateY(0px) rotateY(90deg);
-  }
-
-  to {
-    transform: translateX(400px) translateY(0px) rotateY(90deg);
-  }
-}
-*/
 
 /*** ELEMENTS ***/
 
@@ -68,10 +58,8 @@ h1 {
 
 /* right clouds elements */
 body > section:nth-of-type(2) div:nth-of-type(1) {
-  animation-name: cloudOne;
-  animation-duration: 1s;
+  animation-name: rightCloud1;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-
-/* left clouds elements */

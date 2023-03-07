@@ -13,9 +13,8 @@ main:hover ~ section:nth-of-type(1) {
 }
 
 /* background changes on main:hover */
-main:hover ~ div {
-  background: radial-gradient(circle at 52% 62%, var(--color1light), var(--color2light));
-  transition: 0.5s ease-in-out;
+main:hover ~ div:nth-of-type(1)::after {
+  opacity: 1;
 }
 
 /* while hovering on window frame section: curtains */

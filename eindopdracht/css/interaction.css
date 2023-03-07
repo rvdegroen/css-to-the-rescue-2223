@@ -6,6 +6,17 @@ main:hover {
   filter: none;
 }
 
+/* clouds on main:hover removes filter */
+main:hover ~ section:nth-of-type(2) {
+  transition: 0.5s ease-in-out;
+  filter: none;
+}
+
+main:hover ~ div {
+  background: var(--light-background);
+  transition: 0.5s ease-in-out;
+}
+
 /* while hovering on main: clouds */
 /* main:hover section:nth-of-type(14) {
   filter: opacity(0);

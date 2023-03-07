@@ -6,7 +6,7 @@ body > div:nth-of-type(1) {
   left: -9vw;
   width: 1460px;
   height: 700px;
-  background: var(--dark-background);
+  background: radial-gradient(circle at 52% 62%, var(--color1dark), var(--color2dark));
   z-index: -1;
   /* off hover uses the regular state */
   transition: 0.5s ease-in-out;

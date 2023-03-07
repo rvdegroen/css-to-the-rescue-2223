@@ -10,6 +10,16 @@
   }
 }
 
+/* h1 hover for laptop screen */
+@keyframes hoverMeLaptop {
+  0% {
+    top: -20px;
+  }
+  100% {
+    top: -55px;
+  }
+}
+
 /* h1 opacity animation */
 @keyframes opacity {
   0% {

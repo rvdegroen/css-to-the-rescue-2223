@@ -14,7 +14,8 @@
     top: 26vh;
   }
 
-  body > section:nth-of-type(2) {
+  /* clouds */
+  /* body > section:nth-of-type(2) {
     scale: 0.8;
-  }
+  } */
 }

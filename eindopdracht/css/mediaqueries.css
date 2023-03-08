@@ -19,3 +19,10 @@
     scale: 0.8;
   } */
 }
+
+/* bigger screen */
+@media screen and (min-width: 1401px) {
+  body > section:nth-of-type(2) {
+    scale: 1.6;
+  }
+}

@@ -185,6 +185,6 @@ body > section:nth-of-type(2) div:nth-of-type(3),
 body > section:nth-of-type(2) div:nth-of-type(4),
 body > section:nth-of-type(2) div:nth-of-type(5),
 body > section:nth-of-type(2) div:nth-of-type(6) {
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
   /* animation-play-state: running; */
 }

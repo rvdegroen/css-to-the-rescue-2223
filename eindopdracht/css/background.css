@@ -1,12 +1,10 @@
 body > div:nth-of-type(1) {
   position: absolute;
   top: -9vh;
-  right: 0;
+  right: -9vw;
   bottom: 0;
   left: -9vw;
-  width: 1460px;
-  height: 700px;
-  background: radial-gradient(circle at 52% 62%, var(--color1dark), var(--color2dark));
+  background: radial-gradient(circle at 50% 35%, var(--color1dark), var(--color2dark) 70%);
   z-index: -1;
   /* off hover uses the regular state */
   transition: 0.5s ease-in-out;
@@ -15,14 +13,9 @@ body > div:nth-of-type(1) {
 body > div:nth-of-type(1)::after {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 1460px;
-  height: 700px;
+  inset: 0;
   z-index: -1;
-  background: radial-gradient(circle at 52% 62%, var(--color1light), var(--color2light));
+  background: radial-gradient(circle at 50% 35%, var(--color1light), var(--color2light) 70%);
   /* off hover uses the regular state */
   transition: 0.5s ease-in-out;
   opacity: 0;

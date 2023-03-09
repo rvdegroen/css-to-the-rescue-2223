@@ -17,7 +17,13 @@ main:hover ~ div:nth-of-type(1)::after {
   opacity: 1;
 }
 
-/* while hovering on window frame section: curtains */
+/* wile clicking on door: door opens */
+section:nth-of-type(6) input:nth-of-type(1):checked {
+  transform: translateY(-222px) translateX(481px) translateZ(331px) rotateY(0deg);
+  background-color: var(--door-front-dark);
+}
+
+/* while clicking on window frame section: curtains */
 section:nth-of-type(11) input:nth-of-type(1):checked,
 section:nth-of-type(11) input:nth-of-type(2):checked,
 section:nth-of-type(11) input:nth-of-type(3):checked {

@@ -53,6 +53,7 @@
 
   /*  door  */
   --door-front: #3e5064;
+  --door-front-dark: #3a434d;
   --door-edge: #8f7977;
 
   /* door knob */
@@ -75,7 +76,7 @@
   --left-window-frame: #7e6a69;
   --left-window-side: #725c5a;
   --left-window-bottom: #5f4d4c;
-  --left-window-curtain: #3f4953;
+  --left-window-curtain: #3a434d;
 
   /* window curtain sizes */
   --curtain-size-open: 55px;

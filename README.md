@@ -1,8 +1,10 @@
+[[./doc/images/logo.png]]
+
 # About
 
 This repository is meant for study purposes for the minor web development offered at The Hogeschool van Amsterdam also known as University of Applied Sciences. If you're not a teacher or a fellow student, then it's probably not that interesting to look at this repository.
 
-# Naam Applicatie
+# Cozy Homey
 
 # Installatie
 

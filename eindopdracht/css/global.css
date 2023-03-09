@@ -41,6 +41,6 @@ input {
 }
 
 /* clouds */
-body > section:nth-of-type(2) {
+body > section:nth-of-type(2) :not(input) {
   filter: sepia() brightness(0.3) hue-rotate(190deg) saturate(3);
 }

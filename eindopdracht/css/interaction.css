@@ -1,7 +1,7 @@
 /*** HOVERS ***/
 
 /* main hover and clouds */
-main:hover ~ section:nth-of-type(2),
+main:hover ~ section:nth-of-type(2) :not(input),
 main:hover {
   transition: 0.5s ease-in-out;
   filter: none;
@@ -39,4 +39,24 @@ section:nth-of-type(13) input:checked + div:nth-of-type(4) {
   height: 2em;
   width: 2em;
   border-radius: 30px;
+}
+
+/* play button */
+body > section:nth-of-type(2) input:checked {
+  top: -232vh;
+  left: 143vw;
+  position: absolute;
+  background-color: white;
+  transform: skewY(-35deg);
+  width: 75px;
+  height: 75px;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  cursor: pointer;
+  filter: none;
+  transition: ease-in-out 0.2s;
+}
+
+/* pauding the cloud animations */
+body > section:nth-of-type(2) input:checked ~ div {
+  animation-play-state: paused;
 }

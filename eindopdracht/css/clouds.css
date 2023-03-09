@@ -15,6 +15,7 @@ body > section:nth-of-type(2) div:nth-of-type(1) {
   width: 100px;
   height: 40px;
   border-radius: 30px;
+  transition: 0.5s ease-in-out;
 }
 
 body > section:nth-of-type(2) div:nth-of-type(1)::before {
@@ -46,6 +47,7 @@ body > section:nth-of-type(2) div:nth-of-type(2) {
   width: 100px;
   height: 40px;
   border-radius: 30px;
+  transition: 0.5s ease-in-out;
 }
 
 body > section:nth-of-type(2) div:nth-of-type(2)::before {
@@ -77,6 +79,7 @@ body > section:nth-of-type(2) div:nth-of-type(3) {
   width: 100px;
   height: 40px;
   border-radius: 30px;
+  transition: 0.5s ease-in-out;
 }
 
 body > section:nth-of-type(2) div:nth-of-type(3)::before {
@@ -112,6 +115,7 @@ body > section:nth-of-type(2) div:nth-of-type(4) {
   border-radius: 30px;
   top: -700px;
   right: -920px;
+  transition: 0.5s ease-in-out;
 }
 
 body > section:nth-of-type(2) div:nth-of-type(4)::before {
@@ -144,6 +148,7 @@ body > section:nth-of-type(2) div:nth-of-type(5) {
   width: 100px;
   height: 40px;
   border-radius: 30px;
+  transition: 0.5s ease-in-out;
 }
 
 body > section:nth-of-type(2) div:nth-of-type(5)::before {
@@ -176,6 +181,7 @@ body > section:nth-of-type(2) div:nth-of-type(6) {
   width: 100px;
   height: 40px;
   border-radius: 30px;
+  transition: 0.5s ease-in-out;
 }
 
 body > section:nth-of-type(2) div:nth-of-type(6)::before {
@@ -198,4 +204,30 @@ body > section:nth-of-type(2) div:nth-of-type(6)::after {
   height: 60px;
   background: var(--cloud);
   border-radius: 100px;
+}
+
+/* pause button */
+body > section:nth-of-type(2) input {
+  top: -232vh;
+  left: 143vw;
+  position: absolute;
+  background-color: white;
+  transform: skewY(-35deg);
+  width: 75px;
+  height: 75px;
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    35% 100%,
+    35% 0,
+    65% 0,
+    65% 100%,
+    35% 100%,
+    35% 100%,
+    100% 100%,
+    100% 0%
+  );
+  cursor: pointer;
+  filter: none;
+  transition: ease-in-out 0.2s;
 }

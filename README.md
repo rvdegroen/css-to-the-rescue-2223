@@ -1,4 +1,4 @@
-[[./images/logo.png]]
+[logo](./images/logo.png)
 
 # About
 

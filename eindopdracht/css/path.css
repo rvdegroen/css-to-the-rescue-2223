@@ -1,5 +1,17 @@
-/* path container: top */
+/* inside house */
 section:nth-of-type(6) div:nth-of-type(1) {
+  position: absolute;
+  background-color: var(--window-light);
+  /* with translateZ:300 the door is on the edge in the corner */
+  transform: translateY(-222px) translateX(442px) translateZ(370px) rotateY(90deg);
+  width: 80px;
+  height: 160px;
+  cursor: pointer;
+  box-shadow: inset 8px 8px 0 0 #994f00;
+}
+
+/* path container: top */
+section:nth-of-type(6) div:nth-of-type(2) {
   background-color: var(--path-top);
   transform: translateY(-380px) translateX(707px) translateZ(106px) rotateX(90deg);
   transform-origin: top center;
@@ -8,7 +20,7 @@ section:nth-of-type(6) div:nth-of-type(1) {
 }
 
 /* path container: right */
-section:nth-of-type(6) div:nth-of-type(2) {
+section:nth-of-type(6) div:nth-of-type(3) {
   background: var(--path-right);
 
   transform: translateX(750px) translateZ(455px) rotateY(90deg);

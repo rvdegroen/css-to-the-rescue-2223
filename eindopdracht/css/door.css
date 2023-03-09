@@ -1,6 +1,6 @@
 /* door container */
 
-section:nth-of-type(6) input:nth-of-type(1) {
+section:nth-of-type(7) input:nth-of-type(1) {
   background-color: var(--door-front);
   /* with translateZ:300 the door is on the edge in the corner */
   transform: translateY(-222px) translateX(442px) translateZ(370px) rotateY(90deg);
@@ -13,7 +13,7 @@ section:nth-of-type(6) input:nth-of-type(1) {
   cursor: pointer;
 }
 
-section:nth-of-type(6) input:nth-of-type(1)::after {
+section:nth-of-type(7) input:nth-of-type(1)::after {
   content: "";
   position: absolute;
   top: 50%;

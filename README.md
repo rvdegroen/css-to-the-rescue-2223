@@ -1,4 +1,4 @@
-[[./doc/images/logo.png]]
+[[./docs/images/logo.png]]
 
 # About
 

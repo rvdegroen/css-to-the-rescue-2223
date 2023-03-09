@@ -124,6 +124,29 @@
   }
 }
 
+/* chimney smoke */
+@keyframes smoke {
+  0% {
+    background-color: var(--chimney-smoke);
+    border-radius: 30px;
+    opacity: 0%;
+    height: 1em;
+    width: 1em;
+    transform: translateZ(500px) translateY(-140px) rotateY(90deg);
+  }
+  50% {
+    opacity: 100%;
+  }
+  80% {
+    background-color: var(--chimney-smoke);
+    border-radius: 30px;
+    opacity: 0%;
+    height: 3em;
+    width: 3em;
+    transform: translateZ(500px) translateY(-300px) rotateY(90deg);
+  }
+}
+
 /*** ELEMENTS ***/
 
 /* h1 hover me element */
@@ -187,4 +210,12 @@ body > section:nth-of-type(2) div:nth-of-type(5),
 body > section:nth-of-type(2) div:nth-of-type(6) {
   /* animation-play-state: paused; */
   animation-play-state: running;
+}
+
+/* chimney smoke*/
+section:nth-of-type(13) input:checked + div:nth-of-type(4) {
+  animation-name: smoke;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }

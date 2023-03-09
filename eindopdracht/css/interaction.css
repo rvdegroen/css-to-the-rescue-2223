@@ -41,7 +41,7 @@ section:nth-of-type(13) input:checked + div:nth-of-type(4) {
   border-radius: 30px;
 }
 
-/* play button */
+/* play button for clouds*/
 body > section:nth-of-type(2) input:checked {
   top: -232vh;
   left: 143vw;
@@ -56,7 +56,7 @@ body > section:nth-of-type(2) input:checked {
   transition: ease-in-out 0.2s;
 }
 
-/* pauding the cloud animations */
+/* pausing the cloud animations */
 body > section:nth-of-type(2) input:checked ~ div {
   animation-play-state: paused;
 }

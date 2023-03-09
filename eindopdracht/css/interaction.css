@@ -17,8 +17,8 @@ main:hover ~ div:nth-of-type(1)::after {
   opacity: 1;
 }
 
-/* wile clicking on door: door opens + door knob */
-section:nth-of-type(6) input:checked {
+/* while clicking on door: door opens + door knob */
+section:nth-of-type(7) input:checked {
   transform: translateY(-222px) translateX(481px) translateZ(331px) rotateY(0deg) scaleX(-1);
   background-color: var(--door-front-dark);
 }

@@ -18,7 +18,7 @@ section:nth-of-type(6) input:nth-of-type(1)::after {
   position: absolute;
   top: 50%;
   left: 12%;
-  background-color: white;
+  background: var(--door-edge);
   width: 15px;
   height: 8px;
   cursor: pointer;

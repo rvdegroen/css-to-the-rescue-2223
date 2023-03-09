@@ -32,6 +32,7 @@ main {
 
 /* any input */
 input {
+  position: absolute;
   outline: 0;
   border: 0;
   margin: 0;

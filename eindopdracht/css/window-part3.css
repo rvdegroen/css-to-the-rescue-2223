@@ -43,27 +43,30 @@ section:nth-of-type(11) div:nth-of-type(3) {
 
 /** curtain right side **/
 
-section:nth-of-type(11) div:nth-of-type(4) {
+section:nth-of-type(11) input:nth-of-type(1) {
   background-color: var(--window-curtain);
   transform: translateY(-201px) translateX(442px) translateZ(488px) rotateY(90deg);
   width: 65px;
   height: var(--curtain-size-open);
+  cursor: pointer;
 }
 
 /** curtains left side **/
 
 /* right */
-section:nth-of-type(11) div:nth-of-type(5) {
+section:nth-of-type(11) input:nth-of-type(2) {
   background-color: var(--left-window-curtain);
   transform: translateY(-185px) translateX(318px) translateZ(300px);
   width: 65px;
   height: var(--curtain-size-open);
+  cursor: pointer;
 }
 
 /* left */
-section:nth-of-type(11) div:nth-of-type(6) {
+section:nth-of-type(11) input:nth-of-type(3) {
   background-color: var(--left-window-curtain);
   transform: translateY(-185px) translateX(208px) translateZ(300px);
   width: 65px;
   height: var(--curtain-size-open);
+  cursor: pointer;
 }

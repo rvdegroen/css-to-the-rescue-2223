@@ -6,8 +6,7 @@ section:nth-of-type(6) div:nth-of-type(1) {
   transform: translateY(-222px) translateX(442px) translateZ(370px) rotateY(90deg);
   width: 80px;
   height: 160px;
-  cursor: pointer;
-  box-shadow: inset 8px 8px 0 0 #994f00;
+  box-shadow: inset 8px 10px 0 0 #994f00;
 }
 
 /* path container: top */

@@ -8,6 +8,8 @@
 - [Installation](#installation)
 - [License](#license)
 
+I used [github wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/) to create this TOC.
+
 # About Cozy Homey
 
 Side note: This repository is meant for study purposes for the minor web development offered at The Hogeschool van Amsterdam also known as University of Applied Sciences. If you're not a teacher or a fellow student, then it's probably not that interesting to look at this repository.
@@ -44,3 +46,7 @@ You can find Cozy Homey in the `eindopdracht` folder and it's immediately ready 
 # License
 
 The source code is distributed under the GPL-2.0 license. See LICENSE.md for more information.
+
+# Sources
+
+I used some sources that I've added within my code. I mostly used the knowledge from all the workshops of this minor and alot of googling how these things work again.

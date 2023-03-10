@@ -1,41 +1,33 @@
 ![logo](./images/logobig.png)
 
-# About
+# About Cozy Homey
 
-This repository is meant for study purposes for the minor web development offered at The Hogeschool van Amsterdam also known as University of Applied Sciences. If you're not a teacher or a fellow student, then it's probably not that interesting to look at this repository.
+Side note: This repository is meant for study purposes for the minor web development offered at The Hogeschool van Amsterdam also known as University of Applied Sciences. If you're not a teacher or a fellow student, then it's probably not that interesting to look at this repository.
 
-# Cozy Homey
+Cozy Homey is a cozy little house in the middle of nowhere, which you can partly interact with. You can experience Cozy Homey during the day (day mode) and during the night (dark mode). It's typically day once you hover over the platform and it's night when your cursor is off the platform.
 
-# Installatie
+A view sights of Cozy Homey:
 
-# Waar zijn de opdrachten?
+![cozy homey during the day](./images/day.png)
 
-De eindopdracht kan je vinden in de `eindopdracht` map. Mijn experimenten kan je vinden in het mapje experimenten.
+![cozy homey during the night](./images/night.png)
 
-# Wiki
+## Interactions
 
-In mijn [wiki](https://github.com/rvdegroen/css-to-the-rescue-2223/wiki/Over-dit-vak) lees je alles over het proces van de eindopdracht, experimenten, andere opdrachten en gastcolleges.
+There are several interactions for Cozy Homey. All the interactions can be seen on the interaction chart:
 
-# To-do list
+![interaction chart](./images/chart.png)
 
-Dit is een lijstje met wat ik wil maken in mijn opdracht. Aan de ❌ kan je zien dat ik het niet af heb & aan de ✔ kan je zien dat ik dit wel af heb.
+WARNING: clouds can be memory consuming.
 
-Bediening van omgeving:
+## The Process
 
-[] Dag en nacht
+You can read all about my process in dutch on the [wiki of this repository](https://github.com/rvdegroen/css-to-the-rescue-2223/wiki).
 
-Bediening van props:
+# Installation
 
-[] Licht switch uit en aan
-[] Deur open en dicht
-[] Bomen die bewegen of blaadjes laten vallen
-[] Bosjes die bewegen
-[] Kampvuur uit en aan
-[] Raam gordijnen open en dicht
+To install my application, you just have to follow the following steps:
 
-Als ik tijd over heb:
+1. Clone this repository on your local machine with `git clone https://github.com/rvdegroen/css-to-the-rescue-2223.git` in your terminal of choice.
 
-[] Tilting van omgeving
-[] Rotating van omgeving
-[] Veranderen van weer (regen, zon, sneeuw, bewolkt)
-[] Veranderen van seizoenen
+You can find Cozy Homey in the `eindopdracht` folder and it's immediately read to use. To use the application, simply drag the `index.html` that's within the `eindopdracht` folder and drag it into your browser.

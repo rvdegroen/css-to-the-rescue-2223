@@ -1,5 +1,13 @@
 ![logo](./images/logobig.png)
 
+# Table of Contents
+
+- [About Cozy Homey](#about-cozy-homey)
+  - [Interactions](#interactions)
+  - [The Process](#the-process)
+- [Installation](#installation)
+- [License](#license)
+
 # About Cozy Homey
 
 Side note: This repository is meant for study purposes for the minor web development offered at The Hogeschool van Amsterdam also known as University of Applied Sciences. If you're not a teacher or a fellow student, then it's probably not that interesting to look at this repository.
@@ -32,3 +40,7 @@ To install my application, you just have to follow the following steps:
 2. To use the application, simply drag the `index.html` that's within the `eindopdracht` folder and drag it into your browser.
 
 You can find Cozy Homey in the `eindopdracht` folder and it's immediately ready to use.
+
+# License
+
+The source code is distributed under the GPL-2.0 license. See LICENSE.md for more information.

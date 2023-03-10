@@ -29,5 +29,6 @@ You can read all about my process in dutch on the [wiki of this repository](http
 To install my application, you just have to follow the following steps:
 
 1. Clone this repository on your local machine with `git clone https://github.com/rvdegroen/css-to-the-rescue-2223.git` in your terminal of choice.
+2. To use the application, simply drag the `index.html` that's within the `eindopdracht` folder and drag it into your browser.
 
-You can find Cozy Homey in the `eindopdracht` folder and it's immediately read to use. To use the application, simply drag the `index.html` that's within the `eindopdracht` folder and drag it into your browser.
+You can find Cozy Homey in the `eindopdracht` folder and it's immediately ready to use.
